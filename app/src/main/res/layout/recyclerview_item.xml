@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/recyclerview_item_container"
+    android:layout_height="wrap_content"
+    android:layout_margin="1dp"
+    >
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/recyclerviewImageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="150dp"
+            android:scaleType="centerCrop"
+            android:transitionName="@string/expandTransition"
+            android:src="@color/black_ligth" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/recyclerview_overlay_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.4"
+            android:animateLayoutChanges="true"
+            android:background="@color/black_ligth"
+            android:clickable="true"
+            android:gravity="center_vertical|center_horizontal"
+            android:visibility="gone"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_play" />
+        </LinearLayout>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+</LinearLayout>

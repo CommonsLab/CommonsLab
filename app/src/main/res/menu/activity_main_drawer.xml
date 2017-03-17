@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_pod"
+            android:icon="@drawable/camera_nav_icon"
+            android:title="Picture of the day" />
+        <item
+            android:id="@+id/nav_mod"
+            android:icon="@drawable/video_camera_nav_icon"
+            android:title="Media of the day" />
+
+    </group>
+
+    <item android:title="CommonsLab">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/exit_nav_icon"
+                android:title="Logout" />
+
+        </menu>
+    </item>
+
+</menu>
+

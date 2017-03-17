@@ -1,0 +1,64 @@
+<resources>
+    <string name="WIKIMEDIA_COMMONS">https://commons.wikimedia.org/w/api.php</string>
+
+    <string name="app_name">CommonsLab</string>
+    <string name="commonsLab">CommonsLab</string>
+    <string name="commons">Wikimedia Commons</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password </string>
+    <string name="action_sign_in">Log in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="forgot_password">Forgot your password?</string>
+    <string name="create_an_account">Create an Account</string>
+    <string name="create_account">Create Account</string>
+    <string name="username">Username</string>
+    <string name="retry_password">Enter password again</string>
+    <string name="field_required">This field is required</string>
+    <string name="record">Record</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="comment">Comment</string>
+    <string name="upload">Upload</string>
+    <string name="retype_password">Retype Password</string>
+    <string name="captcha">Captcha</string>
+
+    <!--Transition name-->
+    <string name="expandTransition">expandTransition</string>
+
+    <!--SharedPreferences storage strings-->
+    <string name="SessionStorage">org.wikimedia.commons.wikimedia.SessionStorage</string>
+    <string name="User_Credentials">org.wikimedia.commons.wikimedia.UserCredentials</string>
+    <string name="User_Contributions">org.wikimedia.commons.wikimedia.UserContributions</string>
+    <string name="Picture_of_the_day">Wikimedia Commons picture of the day</string>
+    <string name="Media_of_the_day">Wikimedia Commons media of the day</string>
+    <string name="email_error">Email is not correct</string>
+    <string name="pod">Picture of the day</string>
+    <string name="image_capture_request">CommonsLab needs the camera to capture images</string>
+    <string name="image_video_request">CommonsLab needs the camera to record videos</string>
+    <string name="image_audio_request">CommonsLab needs to access the mic to record audio</string>
+    <string name="image_gallery_request">CommonsLab needs to access your images</string>
+    <string name="deny_permission">Deny</string>
+    <string name="allow_permission">Allow</string>
+
+</resources>

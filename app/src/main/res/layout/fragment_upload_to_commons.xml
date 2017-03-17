@@ -1,0 +1,142 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:orientation="vertical"
+            tools:context="org.wikimedia.commons.wikimedia.Fragments.UploadToCommonsFragment">
+
+            <ImageView
+                android:id="@+id/uploadImageView"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/player_image"
+                android:transitionName="@string/expandTransition" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/upload_titleContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="30dp"
+                android:theme="@style/TextLabel">
+
+                <AutoCompleteTextView
+                    android:id="@+id/upload_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/title"
+                    android:inputType="text"
+
+                    android:textSize="16sp" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/upload_descriptionContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="20dp"
+
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:theme="@style/TextLabel">
+
+                <AutoCompleteTextView
+                    android:id="@+id/upload_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/description"
+                    android:inputType="textMultiLine"
+                    android:textSize="16sp" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/upload_commentContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+
+                android:theme="@style/TextLabel">
+
+                <AutoCompleteTextView
+                    android:id="@+id/upload_comment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/comment"
+                    android:inputType="textMultiLine"
+                    android:textSize="16sp"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:textSize="16sp"
+                android:layout_marginRight="40dp">
+
+                <Spinner
+                    android:id="@+id/upload_license"
+                    style="@style/Widget.AppCompat.Spinner.Underlined"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <LinearLayout
+                android:id="@+id/record_layout_container"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:gravity="bottom"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/activity_vertical_margin">
+
+                <Button
+                    android:id="@+id/upload_cancel"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="0.5"
+                    android:background="@color/colorPrimary"
+                    android:text="@string/cancel"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/uploadButton"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="0.5"
+                    android:background="@color/record_btn_color"
+                    android:text="@string/upload"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <include layout="@layout/loading_screen" />
+
+</RelativeLayout>

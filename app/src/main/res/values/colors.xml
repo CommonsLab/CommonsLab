@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#03A9F4</color>-->
+
+    <color name="colorPrimary">#03A9F4</color> <!-- Used on gradient and on tab_layout -->
+    <color name="colorPrimaryDark">#03A9F4</color> <!-- Used on gradient and on tab_layout -->
+
+    <color name="login_background">#4D78C9AD</color>
+
+
+    <color name="green">#02D143
+    </color> <!-- Mostly used on gradients. Maybe ripple effect with this? -->
+    <color name="green_opacity">#2602D143
+    </color> <!-- Used on LoginScreen, Create an Account Container -->
+    <color name="white_opacity">#D9FFFFFF
+    </color> <!-- Used on LoginScreen, every text on login screen (even text buttons) -->
+    <color name="white_opacity_king">#26FFFFFF
+    </color> <!-- Used on LoginScreen, background color on login button -->
+    <color name="black_ligth">#4D313131</color> <!-- Used as an overlay on video photos -->
+    <color name="white">#FFFFFF</color>
+    <color name="colorAccent">#03A9F4</color>
+
+    <color name="black_overlay">#00660000</color> <!-- Plain white you idiot -->
+    <color name="black_opacity">#80000000</color> <!-- Plain white you idiot -->
+    <color name="black">#000000</color> <!-- Plain white you idiot -->
+
+
+    <color name="record_btn_color">#78C9AD</color>
+
+</resources>

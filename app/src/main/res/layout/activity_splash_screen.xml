@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:fitsSystemWindows="true"
+    tools:context="org.wikimedia.commons.wikimedia.Activities.LoginActivity">
+
+    <include layout="@layout/background_image_layout" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_png">
+
+        <ImageView
+            android:id="@+id/splashImageView"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/commons"
+            android:src="@drawable/logo_png" />
+
+    </RelativeLayout>
+
+    <!--<include layout="@layout/loading_screen" />-->
+
+</android.support.design.widget.CoordinatorLayout>
