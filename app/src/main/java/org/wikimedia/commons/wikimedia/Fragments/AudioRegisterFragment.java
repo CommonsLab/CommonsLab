@@ -26,6 +26,7 @@ import org.wikimedia.commons.wikimedia.R;
 import java.io.IOException;
 
 import apiwrapper.commons.wikimedia.org.Enums.ContributionType;
+import top.oply.opuslib.OpusRecorder;
 
 public class AudioRegisterFragment extends Fragment {
     private static final String TAG = "AudioRecorder";
@@ -53,6 +54,7 @@ public class AudioRegisterFragment extends Fragment {
     private ImageView animationImageView4;
     private ImageView animationImageView5;
     private RelativeLayout animationContainerLayout;
+    private OpusRecorder opusRecorder;
 
     public static AudioRegisterFragment newInstance() {
         AudioRegisterFragment fragment = new AudioRegisterFragment();
@@ -63,6 +65,7 @@ public class AudioRegisterFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+        opusRecorder = OpusRecorder.getInstance();
         return inflater.inflate(R.layout.fragment_audio_register, container, false);
     }
 
@@ -118,26 +121,29 @@ public class AudioRegisterFragment extends Fragment {
             Log.e(TAG, "startRecording, SD card does not have sufficient space!!");
             return;
         }
+        opusRecorder.startRecording(audioFilePath);
 
         isRecording = true;
-        try {
-            mediaRecorder = new MediaRecorder();
-            mediaRecorder.setAudioSource(MediaRecorder.AudioSource.MIC);
-            mediaRecorder.setOutputFormat(MediaRecorder.OutputFormat.THREE_GPP);
-            mediaRecorder.setOutputFile(audioFilePath);
-            mediaRecorder.setAudioEncoder(MediaRecorder.AudioEncoder.AAC);
-            mediaRecorder.prepare();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        mediaRecorder.start();
+//        try {
+//            mediaRecorder = new MediaRecorder();
+//            mediaRecorder.setAudioSource(MediaRecorder.AudioSource.MIC);
+//            mediaRecorder.setOutputFormat(MediaRecorder.OutputFormat.WEBM);
+//            mediaRecorder.setOutputFile(audioFilePath);
+//            mediaRecorder.setAudioEncoder(MediaRecorder.AudioEncoder.VORBIS);
+//            mediaRecorder.prepare();
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+//        mediaRecorder.start();
+
     }
 
     public void stopRecording() {
         if (isRecording) {
-            mediaRecorder.stop();
-            mediaRecorder.release();
-            mediaRecorder = null;
+            opusRecorder.stopRecording();
+//            mediaRecorder.stop();
+//            mediaRecorder.release();
+//            mediaRecorder = null;
             isRecording = false;
         } else {
 //            mediaPlayer.release();

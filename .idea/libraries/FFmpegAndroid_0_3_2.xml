@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="FFmpegAndroid-0.3.2">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.writingminds/FFmpegAndroid/0.3.2/res" />
-      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.writingminds/FFmpegAndroid/0.3.2/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/9087fa07639d3a49adb037d70f14864f53a0decd/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/9087fa07639d3a49adb037d70f14864f53a0decd/output/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
