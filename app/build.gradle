@@ -10,7 +10,7 @@ android {
     buildToolsVersion "25.0.0"
     defaultConfig {
         applicationId "org.wikimedia.commons.wikimedia"
-        minSdkVersion 21
+        minSdkVersion 17
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
@@ -41,7 +41,6 @@ dependencies {
     compile 'com.github.valdio:CommonsAPI:1.1.8'
     compile 'com.github.clans:fab:1.6.4'
     compile 'pub.devrel:easypermissions:0.3.0'
-    compile 'com.writingminds:FFmpegAndroid:0.3.2'
-    testCompile 'junit:junit:4.12'
     compile 'top.oply.opuslib:opuslib:1.0.2'
+    testCompile 'junit:junit:4.12'
 }

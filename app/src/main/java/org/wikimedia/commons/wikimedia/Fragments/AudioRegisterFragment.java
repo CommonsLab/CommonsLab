@@ -23,7 +23,10 @@ import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 import org.wikimedia.commons.wikimedia.R;
+
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import apiwrapper.commons.wikimedia.org.Enums.ContributionType;
 import top.oply.opuslib.OpusRecorder;
@@ -42,7 +45,6 @@ public class AudioRegisterFragment extends Fragment {
     private LinearLayout linearLayout;
 
 
-    private static MediaRecorder mediaRecorder;
     //    private static MediaPlayer mediaPlayer;
     private static String audioFilePath;
     private boolean isRecording = false;
@@ -72,14 +74,16 @@ public class AudioRegisterFragment extends Fragment {
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
+        String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
         audioFilePath =
                 Environment.getExternalStorageDirectory().getAbsolutePath()
-                        + "/commonsAudioFile.ogg";
+                        + "/commonsAudio_" + timeStamp + ".ogg";
 
         handler = new Handler(Looper.getMainLooper());//used for animation
         setupLayout();
         setupHandler();
     }
+
     /**
      * Get the phone storage path
      *
@@ -93,7 +97,6 @@ public class AudioRegisterFragment extends Fragment {
      * Check if has enough space for record
      *
      * @param recordingSdcard The recording sdcard path
-     *
      * @return true if has enough space for record
      */
     public static boolean hasEnoughSpace(String recordingSdcard) {
@@ -109,6 +112,7 @@ public class AudioRegisterFragment extends Fragment {
         }
         return ret;
     }
+
     public void recordAudio() throws IOException {
         if (!Environment.MEDIA_MOUNTED.equals(Environment.getExternalStorageState())) {
             Log.e(TAG, "startRecording, no external storage available");
@@ -141,23 +145,13 @@ public class AudioRegisterFragment extends Fragment {
     public void stopRecording() {
         if (isRecording) {
             opusRecorder.stopRecording();
-//            mediaRecorder.stop();
-//            mediaRecorder.release();
-//            mediaRecorder = null;
+            opusRecorder.release();
             isRecording = false;
         } else {
-//            mediaPlayer.release();
-//            mediaPlayer = null;
+            opusRecorder.release();
             recordButton.setEnabled(true);
         }
     }
-
-//    public void playAudio() throws IOException {
-//        mediaPlayer = new MediaPlayer();
-//        mediaPlayer.setDataSource(audioFilePath);
-//        mediaPlayer.prepare();
-//        mediaPlayer.start();
-//    }
 
     protected boolean hasMicrophone() {
         PackageManager packageManager = getActivity().getPackageManager();

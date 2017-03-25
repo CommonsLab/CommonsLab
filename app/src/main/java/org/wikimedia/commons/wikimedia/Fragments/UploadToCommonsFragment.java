@@ -1,8 +1,10 @@
 package org.wikimedia.commons.wikimedia.Fragments;
 
 import android.app.ProgressDialog;
-import android.content.DialogInterface;
+import android.content.BroadcastReceiver;
+import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.graphics.Typeface;
 import android.media.MediaPlayer;
 import android.net.Uri;
@@ -10,7 +12,6 @@ import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.support.v7.app.AlertDialog;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -24,11 +25,6 @@ import android.widget.Spinner;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
-import com.github.hiteshsondhi88.libffmpeg.ExecuteBinaryResponseHandler;
-import com.github.hiteshsondhi88.libffmpeg.FFmpeg;
-import com.github.hiteshsondhi88.libffmpeg.LoadBinaryResponseHandler;
-import com.github.hiteshsondhi88.libffmpeg.exceptions.FFmpegCommandAlreadyRunningException;
-import com.github.hiteshsondhi88.libffmpeg.exceptions.FFmpegNotSupportedException;
 
 import org.wikimedia.commons.wikimedia.Activities.ImageDetailsActivity;
 import org.wikimedia.commons.wikimedia.Activities.MainActivity;
@@ -46,13 +42,14 @@ import apiwrapper.commons.wikimedia.org.Interfaces.UploadCallback;
 import apiwrapper.commons.wikimedia.org.Models.Licenses;
 import apiwrapper.commons.wikimedia.org.Models.User;
 import apiwrapper.commons.wikimedia.org.Utils.UriToAbsolutePath;
+import top.oply.opuslib.OpusEvent;
 
 
 public class UploadToCommonsFragment extends Fragment {
 
 
-    private FFmpeg ffmpeg;
     private ProgressDialog progressDialog;
+    private OpusReceiver mReceiver;
 
     enum Media {
         IMAGE, VIDEO, AUDIO
@@ -73,6 +70,9 @@ public class UploadToCommonsFragment extends Fragment {
     private AutoCompleteTextView uploadCommentTextView;
     private Spinner upload_license;
     ContributionType contributionType = ContributionType.IMAGE;
+
+    String encodedPath;
+
 
     public UploadToCommonsFragment() {
         // Required empty public constructor
@@ -137,7 +137,6 @@ public class UploadToCommonsFragment extends Fragment {
             //video or audio needs encoding
             progressDialog = new ProgressDialog(getActivity());
             progressDialog.setTitle(null);
-            loadFFMpegBinary();
         }
     }
 
@@ -198,96 +197,11 @@ public class UploadToCommonsFragment extends Fragment {
         uploadButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                if (contributionType == ContributionType.IMAGE) {
-                    //Upload image
-                    uploadMedia();
-                } else if (contributionType == ContributionType.AUDIO) {
-                    uploadMedia();
-                } else {
-                    // encoding needed
-                    uploadEncodedMedia();
-                }
+                uploadMedia();
             }
         });
 
         setFonts();
-    }
-
-
-    private void showUnsupportedExceptionDialog() {
-        new AlertDialog.Builder(getActivity())
-                .setIcon(R.drawable.ic_alert)
-                .setTitle("Device not supported ")
-                .setMessage("This Android device does not support FFmpeg media encoding")
-                .setCancelable(false)
-                .setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        exitFragment();
-                    }
-                })
-                .create().show();
-    }
-
-    private void loadFFMpegBinary() {
-        ffmpeg = FFmpeg.getInstance(getActivity().getApplicationContext());
-        try {
-            ffmpeg.loadBinary(new LoadBinaryResponseHandler() {
-                @Override
-                public void onFailure() {
-                    showUnsupportedExceptionDialog();
-                }
-            });
-        } catch (FFmpegNotSupportedException e) {
-            showUnsupportedExceptionDialog();
-        }
-    }
-
-    private void execFFmpegBinary(String mediaPath, ContributionType contributionType) {
-        try {
-//            if (ffmpeg.isFFmpegCommandRunning())
-//                ffmpeg.killRunningProcesses();
-            // to execute "ffmpeg -version" command you just need to pass "-version"
-            String cmd;
-            if (contributionType == ContributionType.VIDEO)
-                //  cmd = "-y -i " + mediaPath + " /storage/emulated/0/DCIM/Camera/output.webm";
-//                cmd = "-y -i " + mediaPath + " /storage/emulated/0/DCIM/Camera/output.webm";
-                cmd = "-version";
-            else
-                cmd = "-y -i " + mediaPath + " output.ogg";
-            String[] command = cmd.split(" ");
-            if (command.length != 0)
-                ffmpeg.execute(command, new ExecuteBinaryResponseHandler() {
-                    @Override
-                    public void onStart() {
-                        progressDialog.setMessage("Processing...");
-                        progressDialog.show();
-                    }
-
-                    @Override
-                    public void onProgress(String message) {
-                        progressDialog.setMessage("Processing\n" + message);
-                    }
-
-                    @Override
-                    public void onFailure(String message) {
-                        showToastMessage("Failed to encode media");
-                    }
-
-                    @Override
-                    public void onSuccess(String message) {
-                        Log.d("FFmpeg output", message);
-                    }
-
-                    @Override
-                    public void onFinish() {
-                        progressDialog.dismiss();
-                    }
-                });
-        } catch (FFmpegCommandAlreadyRunningException e) {
-            // Handle if FFmpeg is already running
-        }
     }
 
     private void exitFragment() {
@@ -305,6 +219,68 @@ public class UploadToCommonsFragment extends Fragment {
         mediaPlayer.setDataSource(audioFilePath);
         mediaPlayer.prepare();
         mediaPlayer.start();
+
+
+        //testing decode functions. Can't play recorded audio for Lollipop and older devices
+//        String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
+//         encodedPath =
+//                Environment.getExternalStorageDirectory().getAbsolutePath()
+//                        + "/commonsAudioEncoded_" + timeStamp + ".ogg";
+//
+//
+//        OpusTool oTool = new OpusTool();
+//        oTool.decode(audioFilePath, encodedPath, null);
+    }
+
+
+    private void opusSetup() {
+        //register a broadcast receiver
+        mReceiver = new OpusReceiver();
+        IntentFilter filter = new IntentFilter();
+        filter.addAction(OpusEvent.ACTION_OPUS_UI_RECEIVER);
+        getActivity().registerReceiver(mReceiver, filter);
+
+    }
+
+    //define a broadcast receiver
+    class OpusReceiver extends BroadcastReceiver {
+        public void onReceive(Context context, Intent intent) {
+            Bundle bundle = intent.getExtras();
+            int type = bundle.getInt(OpusEvent.EVENT_TYPE, 0);
+            switch (type) {
+                case OpusEvent.CONVERT_FINISHED:
+
+                    break;
+                case OpusEvent.CONVERT_FAILED:
+                    break;
+                case OpusEvent.CONVERT_STARTED:
+                    break;
+                case OpusEvent.RECORD_FAILED:
+                    break;
+                case OpusEvent.RECORD_FINISHED:
+
+                    break;
+                case OpusEvent.RECORD_STARTED:
+                    break;
+                case OpusEvent.RECORD_PROGRESS_UPDATE:
+                    break;
+                case OpusEvent.PLAY_PROGRESS_UPDATE:
+                    break;
+                case OpusEvent.PLAY_GET_AUDIO_TRACK_INFO:
+                    break;
+                case OpusEvent.PLAYING_FAILED:
+                    break;
+                case OpusEvent.PLAYING_FINISHED:
+                    break;
+                case OpusEvent.PLAYING_PAUSED:
+                    break;
+                case OpusEvent.PLAYING_STARTED:
+                    break;
+                default:
+                    Log.d("OPUS", intent.toString() + "Invalid request,discarded");
+                    break;
+            }
+        }
     }
 
     @Override
@@ -321,12 +297,6 @@ public class UploadToCommonsFragment extends Fragment {
         Intent videoIntent = new Intent(getActivity(), VideoPlayerActivity.class);
         videoIntent.putExtra("LocalVideoURI", contributionPath);
         startActivity(videoIntent);
-
-//        ActivityOptionsCompat optionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(
-//                getActivity(),
-//                coverImage,
-//                getString(R.string.expandTransition));
-//        startActivity(videoIntent, optionsCompat.toBundle());
     }
 
 
@@ -388,72 +358,6 @@ public class UploadToCommonsFragment extends Fragment {
                             exitFragment();
                         }
                     });
-        }
-    }
-
-    private void uploadEncodedMedia() {
-        String title = uploadTitleTextView.getText().toString();
-        String description = uploadDescriptionTextView.getText().toString();
-        String comment = uploadCommentTextView.getText().toString();
-        String license = extractLicenseString();
-        StorageUtil storage = new StorageUtil(getActivity());
-        String username = storage.loadUserCredentials();//get username from cache
-
-        if (username == null) {
-            showToastMessage("User session deleted \nPlease re-login to upload media");
-        } else if (title == null || title.equals("")) {
-            showToastMessage("Set the media title");
-            //Other fields are optional
-        } else {
-            commons = new Commons(getActivity().getApplicationContext(), CookieStatus.ENABLED);
-            File file;
-
-            if (loadAbsolutePath)
-                file = new File(UriToAbsolutePath.getPath(getActivity(), Uri.parse(contributionPath)));
-            else
-                file = new File(contributionPath);
-
-//            if (mediaType == Media.VIDEO)
-//                if (Build.VERSION.SDK_INT < Build.VERSION_CODES.N) {
-//                    file = new File(UriToAbsolutePath.getPath(getActivity(), Uri.parse(contributionPath)));
-//                } else {
-//                    file = ((MainActivity) getActivity()).getVideoFile();// get file from activity ..
-//                }
-            Log.wtf("File", file.getAbsolutePath());
-            Log.wtf("File", file.getPath());
-            Log.wtf("File", file.getName());
-
-            //show a loading screen
-            FrameLayout loadingScreen = (FrameLayout) getActivity().findViewById(R.id.progressBarHolder);
-            loadingScreen.setVisibility(View.VISIBLE);
-
-            execFFmpegBinary(file.getAbsolutePath(), contributionType);
-
-//            User user = new User();
-//            user.setUsername(username);// all the upload needs the username
-//            commons.uploadContribution(
-//                    file,
-//                    user,
-//                    title,
-//                    comment,
-//                    description,
-//                    contributionType,
-//                    license,
-//                    R.drawable.upload_icon,
-//                    new UploadCallback() {
-//                        @Override
-//                        public void onMediaUploadedSuccessfully() {
-//                            showToastMessage("Thank you for sharing in Commons");
-//                            ((MainActivity) getActivity()).triggerContributionLoadRequest();
-//                            exitFragment();
-//                        }
-//
-//                        @Override
-//                        public void onFailure(String errorMessage) {
-//                            showToastMessage(errorMessage);
-//                            exitFragment();
-//                        }
-//                    });
         }
     }
 
