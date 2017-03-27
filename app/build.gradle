@@ -43,4 +43,6 @@ dependencies {
     compile 'pub.devrel:easypermissions:0.3.0'
     compile 'top.oply.opuslib:opuslib:1.0.2'
     testCompile 'junit:junit:4.12'
+    //for playing .opus audio files in older devices
+    compile project(':openplayer')
 }

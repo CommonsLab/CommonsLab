@@ -77,7 +77,7 @@ public class AudioRegisterFragment extends Fragment {
         String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
         audioFilePath =
                 Environment.getExternalStorageDirectory().getAbsolutePath()
-                        + "/commonsAudio_" + timeStamp + ".ogg";
+                        + "/commonsAudio_" + timeStamp + ".opus";
 
         handler = new Handler(Looper.getMainLooper());//used for animation
         setupLayout();

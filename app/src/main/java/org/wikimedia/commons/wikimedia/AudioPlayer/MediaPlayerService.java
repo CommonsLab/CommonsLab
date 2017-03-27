@@ -872,4 +872,8 @@ public class MediaPlayerService extends Service implements MediaPlayer.OnComplet
         }
     };
 
+
+    //The following methods are used to play ".opus" audio files,
+    // as it is not possible to play this media files without any kind of decoding
+
 }

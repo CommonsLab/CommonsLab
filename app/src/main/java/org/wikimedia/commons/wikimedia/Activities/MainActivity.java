@@ -51,6 +51,7 @@ import com.google.gson.Gson;
 
 import org.wikimedia.commons.wikimedia.AudioPlayer.MediaControlsConstants;
 import org.wikimedia.commons.wikimedia.AudioPlayer.MediaServiceActions;
+import org.wikimedia.commons.wikimedia.AudioPlayer.OpusPlayer;
 import org.wikimedia.commons.wikimedia.AudioPlayer.StorageUtilAudioPlayer;
 import org.wikimedia.commons.wikimedia.BuildConfig;
 import org.wikimedia.commons.wikimedia.Fragments.AudioRegisterFragment;
@@ -83,7 +84,6 @@ import pub.devrel.easypermissions.EasyPermissions;
 
 import static org.wikimedia.commons.wikimedia.Fragments.AudioFragment.Broadcast_PLAY_NEW_AUDIO;
 
-
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener, EasyPermissions.PermissionCallbacks {
 
     public static final String SEEKBAR_UPDATE_BROADCAST = "org.wikimedia.commons.wikimedia.SEEKBAR_UPDATE_BROADCAST";
@@ -93,6 +93,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private static final int UPLOAD_AUDIO_PERMISSION = 12;
     private static final int UPLOAD_GALLERY_PERMISSION = 13;
     private static final String LOAD_USER_CONTRIBUTIONS_FROM_BUNDLE = "org.wikimedia.commons.wikimedia.USER_CONTRIBUTIONS";
+    public static final String SEEKBAR_UPDATE_OPUS = "org.wikimedia.commons.wikimedia.SEEKBAR_UPDATE_OPUS";
+    public static final String NEXT_OPUS = "org.wikimedia.commons.wikimedia.NEXT_OPUS";
+    public static final String PREVIOUS_OPUS = "org.wikimedia.commons.wikimedia.PREVIOUS_OPUS";
+    public static final String PLAY_OPUS = "org.wikimedia.commons.wikimedia.PLAY_OPUS";
+    public static final String PAUSE_OPUS = "org.wikimedia.commons.wikimedia.PAUSE_OPUS";
+    public static final String STOP_OPUS = "org.wikimedia.commons.wikimedia.STOP_OPUS";
     private Intent seekBarUpdateIntent;
     private static final int GALLERY_REQUEST_CODE = 101;
     private static final int VIDEO_CAPTURE = 201;
@@ -117,6 +123,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     private boolean isPlyingAudio = false;
 
+    private OpusPlayer opusPlayer;
+    private int playingAudioIndex;
+    private ArrayList<Contribution> playingAudioList;
     //FAB, upload section
     FloatingActionMenu uploadMenu;
 
@@ -143,6 +152,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         setContentView(R.layout.activity_main);
         seekBarUpdateIntent = new Intent(SEEKBAR_UPDATE_BROADCAST);//for audio player to send seekbar progress changes
         registerMediaControlsReceiver();
+        registerOPUSMediaControlsReceiver();
+
         //register seekBarReceiver
         registerReceiver(seekBarReceiver, new IntentFilter(MediaPlayerService.SEEKBAR_UPDATE));
 
@@ -506,21 +517,36 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         previousTrack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //code  used to play next tract in service, not used after adding OpusPlayer
                 //Send a broadcast to the service
-                Intent broadcastIntent = new Intent(MediaControlsConstants.MEDIA_CONTROLS_ACTION_PREVIOUS);
-                sendBroadcast(broadcastIntent);
+                //Intent broadcastIntent = new Intent(MediaControlsConstants.MEDIA_CONTROLS_ACTION_PREVIOUS);
+                //sendBroadcast(broadcastIntent);
+
+                if (playingAudioList != null && playingAudioIndex >= 0) {
+                    if (--playingAudioIndex == -1) {
+                        //if last in playlist
+                        playingAudioIndex = playingAudioList.size() - 1;
+                    }
+                    playAudio(playingAudioIndex, playingAudioList);
+
+                }
+
             }
         });
 
         playPayPauseTrack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (isPlyingAudio) {
-                    Intent broadcastIntent = new Intent(MediaControlsConstants.MEDIA_CONTROLS_ACTION_PAUSE);
-                    sendBroadcast(broadcastIntent);
+                if (playingAudioList.get(playingAudioIndex).getUrl().endsWith(".opus")) {
+                    opusPlayer.toggleOpusPlayer();
                 } else {
-                    Intent broadcastIntent = new Intent(MediaControlsConstants.MEDIA_CONTROLS_ACTION_PLAY);
-                    sendBroadcast(broadcastIntent);
+                    if (isPlyingAudio) {
+                        Intent broadcastIntent = new Intent(MediaControlsConstants.MEDIA_CONTROLS_ACTION_PAUSE);
+                        sendBroadcast(broadcastIntent);
+                    } else {
+                        Intent broadcastIntent = new Intent(MediaControlsConstants.MEDIA_CONTROLS_ACTION_PLAY);
+                        sendBroadcast(broadcastIntent);
+                    }
                 }
             }
         });
@@ -528,8 +554,19 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         nextTrack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent broadcastIntent = new Intent(MediaControlsConstants.MEDIA_CONTROLS_ACTION_NEXT);
-                sendBroadcast(broadcastIntent);
+                //code  used to play next tract in service, not used after adding OpusPlayer
+                // Intent broadcastIntent = new Intent(MediaControlsConstants.MEDIA_CONTROLS_ACTION_NEXT);
+                // sendBroadcast(broadcastIntent);
+
+                if (playingAudioList != null && playingAudioIndex >= 0) {
+                    if (++playingAudioIndex == (playingAudioList.size())) {
+                        //if last in playlist
+                        playingAudioIndex = 0;
+                    }
+                    playAudio(playingAudioIndex, playingAudioList);
+
+                }
+
             }
         });
 
@@ -538,11 +575,16 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             public void onClick(View view) {
 //                Intent broadcastIntent = new Intent(MediaControlsConstants.MEDIA_CONTROLS_ACTION_STOP);
 //                sendBroadcast(broadcastIntent);
-
-                if (serviceBound) {
-                    unbindService(serviceConnection);
-                    //service is active
-                    player.stopSelf();
+                if (playingAudioList.get(playingAudioIndex).getUrl().endsWith(".opus")) {
+                    //playing opus media
+                    opusPlayer.stopOpusMedia();
+                } else {
+                    if (serviceBound) {
+                        unbindService(serviceConnection);
+                        //service is active
+                        player.stopSelf();
+                        serviceBound = false;
+                    }
                 }
             }
         });
@@ -551,9 +593,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
                 if (fromUser) {
-                    seekBarUpdateIntent.putExtra("SeekBarPosition", progress);
-//                    seekBarUpdateIntent.putExtra("SeekBarPosition", seekBar.getProgress());
-                    sendBroadcast(seekBarUpdateIntent);
+                    if (playingAudioList.get(playingAudioIndex).getUrl().endsWith(".opus")) {
+                        //playing opus media
+                        opusPlayer.seekToPositionOpusMedia(progress);
+                    } else {
+                        seekBarUpdateIntent.putExtra("SeekBarPosition", progress);
+                        // seekBarUpdateIntent.putExtra("SeekBarPosition", seekBar.getProgress());
+                        sendBroadcast(seekBarUpdateIntent);
+                    }
                 }
             }
 
@@ -583,12 +630,57 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
     };
 
+    private BroadcastReceiver OPUSMediaControlsReceiver = new BroadcastReceiver() {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+
+            switch (intent.getAction()) {
+                case SEEKBAR_UPDATE_OPUS:
+                    //update SeekBar position
+                    String progressPosition = intent.getStringExtra("progressPosition");
+                    seekBar.setProgress(Integer.parseInt(progressPosition));
+                    break;
+                case NEXT_OPUS:
+                    MediaPlayerPlaying();
+                    break;
+                case PREVIOUS_OPUS:
+                    MediaPlayerPlaying();
+                    break;
+                case PLAY_OPUS:
+                    MediaPlayerPlaying();
+                    break;
+                case PAUSE_OPUS:
+                    MediaPlayerPaused();
+                    break;
+                case STOP_OPUS:
+                    opusPlayer.stopOpusMedia();
+                    MediaPlayerStopped();
+                    break;
+            }
+
+        }
+    };
+
+    private void registerOPUSMediaControlsReceiver() {
+        //Register MediaServiceActionReceiver BroadcastReceivers
+        IntentFilter filter = new IntentFilter();
+        filter.addAction(SEEKBAR_UPDATE_OPUS);
+        filter.addAction(NEXT_OPUS);
+        filter.addAction(PREVIOUS_OPUS);
+        filter.addAction(PLAY_OPUS);
+        filter.addAction(PAUSE_OPUS);
+        filter.addAction(STOP_OPUS);
+        registerReceiver(OPUSMediaControlsReceiver, filter);
+    }
+
+
     @Override
     protected void onPause() {
         super.onPause();
         try {
             //unregister SeekBar Receiver
             unregisterReceiver(seekBarReceiver);
+            unregisterReceiver(OPUSMediaControlsReceiver);
             unregisterReceiver(MediaServiceActionReceiver);
         } catch (Exception e) {
             e.printStackTrace();
@@ -602,6 +694,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         if (isPlyingAudio)
             registerReceiver(seekBarReceiver, new IntentFilter(MediaPlayerService.SEEKBAR_UPDATE));
         registerMediaControlsReceiver();
+        registerOPUSMediaControlsReceiver();
     }
 
 
@@ -739,7 +832,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             Uri cameraTempUri = getContentResolver()
                     .insert(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, values);
 
-//
 //            String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
 //            File imagesFolder = new File(Environment
 //                    .getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES), "CommonsImages");
@@ -758,32 +850,64 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
 
     //Audio playing methods
-
     public void playAudio(int audioIndex, ArrayList<Contribution> contributionsList) {
-        Log.wtf("PLAY_NEW_AUDIO", "PLAY_NEW_AUDIO");
+        playingAudioIndex = audioIndex;
+        playingAudioList = contributionsList;
 
-        StorageUtilAudioPlayer storage = new StorageUtilAudioPlayer(getApplicationContext());
-
-        //Check is service is active
-        if (!storage.getPlayerFlag() || player == null) {// means the service is not playing
-            //Store Serializable audioList to SharedPreferences
-            storage.storeAudio(contributionsList);
-            storage.storeAudioIndex(audioIndex);
-
-            Intent playerIntent = new Intent(MainActivity.this, MediaPlayerService.class);
-            startService(playerIntent);
-            bindService(playerIntent, serviceConnection, Context.BIND_AUTO_CREATE);
-
-            MediaPlayerPlaying();
+        //check if audio files are of OPUS format
+        if (contributionsList.get(audioIndex).getUrl().endsWith(".opus")) {
+            //stop MediaPlayerService if it is plying
+            if (serviceBound) {
+                unbindService(serviceConnection);
+                //service is active
+                player.stopSelf();
+                serviceBound = false;
+            }
+            String duration = contributionsList.get(audioIndex).getDuration();
+            int audioLength;
+            if (duration.contains("."))
+                audioLength = Integer.parseInt(duration.substring(0, duration.indexOf(".")));
+            else
+                audioLength = Integer.parseInt(duration);
+            if (opusPlayer != null)
+                opusPlayer.stopOpusMedia();//stop any playing media
+            opusPlayer = new OpusPlayer(
+                    MainActivity.this,
+                    audioLength,
+                    contributionsList.get(audioIndex).getUrl()
+            );
+            opusPlayer.playOpusMedia();
+            return;
         } else {
-            //Store the new audioIndex to SharedPreferences
-            storage.storeAudioIndex(audioIndex);
 
-            //Service is active
-            //Send a broadcast to the service -> PLAY_NEW_AUDIO
-            Intent broadcastIntent = new Intent(Broadcast_PLAY_NEW_AUDIO);
-            sendBroadcast(broadcastIntent);
-            MediaPlayerPlaying();
+
+            //if not the player will proceed to play audio files in a service
+            if (opusPlayer != null)
+                opusPlayer.stopOpusMedia();//stop any playing media
+
+
+            StorageUtilAudioPlayer storage = new StorageUtilAudioPlayer(getApplicationContext());
+            //Check is service is active
+            if (!storage.getPlayerFlag() || player == null) {
+                // means the service is not playing
+                //Store Serializable audioList to SharedPreferences
+                storage.storeAudio(contributionsList);
+                storage.storeAudioIndex(audioIndex);
+
+                Intent playerIntent = new Intent(MainActivity.this, MediaPlayerService.class);
+                startService(playerIntent);
+                bindService(playerIntent, serviceConnection, Context.BIND_AUTO_CREATE);
+                MediaPlayerPlaying();
+            } else {
+                //Store the new audioIndex to SharedPreferences
+                storage.storeAudioIndex(audioIndex);
+
+                //Service is active
+                //Send a broadcast to the service -> PLAY_NEW_AUDIO
+                Intent broadcastIntent = new Intent(Broadcast_PLAY_NEW_AUDIO);
+                sendBroadcast(broadcastIntent);
+                MediaPlayerPlaying();
+            }
         }
 
         //Send reference to the Activity, Service and its connection
@@ -912,7 +1036,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 public void onFailure() {
 //                showToastMessage("Error loading contributions");
                 }
-
             });
         }
     }
