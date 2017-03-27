@@ -11,34 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acca7982-cfdb-48f2-a510-dda64c1e1f9e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-24-14-31-06-828.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-24-14-55-34-312.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-24-14-56-39-804.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-24-14-58-53-648.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-24-15-29-36-487.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-24-15-30-45-058.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-24-15-32-05-740.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-24-15-32-07-365.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-24-15-32-36-966.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-24-18-22-19-241.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-24-18-22-31-211.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-24-18-24-30-056.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-24-21-02-04-722.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-24-21-02-13-711.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-03-24-21-05-16-195.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/generated/mockable-android-25.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/Activities/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/Activities/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/AudioPlayer/MediaPlayerService.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/AudioPlayer/MediaPlayerService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/Fragments/AudioFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/Fragments/AudioFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/Fragments/AudioRegisterFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/Fragments/AudioRegisterFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
     </list>
     <ignored path="wikimedia-commons.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,7 +49,7 @@
       <file leaf-file-name="MediaPlayerService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/AudioPlayer/MediaPlayerService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2117">
+            <state relative-caret-position="9325">
               <caret line="414" column="34" selection-start-line="414" selection-start-column="34" selection-end-line="414" selection-end-column="34" />
               <folding />
             </state>
@@ -83,7 +59,7 @@
       <file leaf-file-name="AudioRegisterFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/Fragments/AudioRegisterFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
+            <state relative-caret-position="2100">
               <caret line="113" column="5" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
               <folding />
             </state>
@@ -93,10 +69,9 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/Activities/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="90" column="6" selection-start-line="90" selection-start-column="6" selection-end-line="90" selection-end-column="6" />
+            <state relative-caret-position="300">
+              <caret line="193" column="15" selection-start-line="193" selection-start-column="15" selection-end-line="193" selection-end-column="15" />
               <folding>
-                <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
                 <element signature="e#7754#7775#0" expanded="false" />
                 <element signature="method#setupCollapsingImage#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#setupUploadMenu#0;class#MainActivity#0" expanded="false" />
@@ -106,18 +81,17 @@
                 <element signature="method#initViewPagerAndTabs#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#customizeTabFont#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#onBackPressed#0;class#MainActivity#0" expanded="false" />
-                <element signature="e#21189#21204#0" expanded="false" />
-                <element signature="e#21963#22006#0" expanded="false" />
-                <element signature="e#21963#22006#0" expanded="false" />
+                <element signature="e#21195#21210#0" expanded="false" />
+                <element signature="e#21969#22012#0" expanded="false" />
                 <element signature="method#onNavigationItemSelected#0;class#MainActivity#0" expanded="false" />
-                <element signature="class#23344:23755" expanded="false" />
-                <element signature="method#onLogoutSuccessful#0;class#23344:23755" expanded="false" />
+                <element signature="class#23350:23761" expanded="false" />
+                <element signature="method#onLogoutSuccessful#0;class#23350:23761" expanded="false" />
                 <element signature="docComment;method#setupPlayerActions#0;class#MainActivity#0" expanded="false" />
-                <element signature="e#24981#25057#0" expanded="false" />
-                <element signature="e#26582#26658#0" expanded="false" />
-                <element signature="e#27332#27437#0" expanded="false" />
-                <element signature="method#onStartTrackingTouch#0;class#28037:28966" expanded="false" />
-                <element signature="method#onStopTrackingTouch#0;class#28037:28966" expanded="false" />
+                <element signature="e#24987#25063#0" expanded="false" />
+                <element signature="e#26588#26664#0" expanded="false" />
+                <element signature="e#27338#27443#0" expanded="false" />
+                <element signature="method#onStartTrackingTouch#0;class#28043:28972" expanded="false" />
+                <element signature="method#onStopTrackingTouch#0;class#28043:28972" expanded="false" />
                 <element signature="docComment;field#seekBarReceiver#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#onPause#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#onResume#0;class#MainActivity#0" expanded="false" />
@@ -128,41 +102,39 @@
                 <element signature="method#MediaPlayerPaused#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#updateServiceReferences#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#killMediaPlayerService#0;class#MainActivity#0" expanded="false" />
-                <element signature="e#35206#35246#0" expanded="false" />
+                <element signature="e#35212#35252#0" expanded="false" />
                 <element signature="method#startRecordingVideo#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#takePictureIntent#0;class#MainActivity#0" expanded="false" />
-                <element signature="e#37321#37413#0" expanded="false" />
-                <element signature="e#39797#39832#0" expanded="false" />
-                <element signature="e#40430#40449#0" expanded="false" />
-                <element signature="e#40716#40776#0" expanded="false" />
-                <element signature="class#40985:41506" expanded="false" />
-                <element signature="method#onServiceConnected#0;class#40985:41506" expanded="false" />
-                <element signature="method#onServiceDisconnected#0;class#40985:41506" expanded="false" />
+                <element signature="e#37327#37419#0" expanded="false" />
+                <element signature="e#39803#39838#0" expanded="false" />
+                <element signature="e#40436#40455#0" expanded="false" />
+                <element signature="e#40722#40782#0" expanded="false" />
+                <element signature="class#40991:41512" expanded="false" />
+                <element signature="method#onServiceConnected#0;class#40991:41512" expanded="false" />
+                <element signature="method#onServiceDisconnected#0;class#40991:41512" expanded="false" />
                 <element signature="method#removeNotification#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#updateStatusBarColor#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#revertStatusBarColor#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#getStatusBatColor#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#loadContributions#0;class#MainActivity#0" expanded="false" />
-                <element signature="class#43087:43992" expanded="false" />
-                <element signature="method#onContributionsReceived#0;class#43087:43992" expanded="false" />
-                <element signature="e#43343#43373#0" expanded="false" />
-                <element signature="method#onFailure#0;class#43087:43992" expanded="false" />
+                <element signature="class#43093:43998" expanded="false" />
+                <element signature="method#onContributionsReceived#0;class#43093:43998" expanded="false" />
+                <element signature="e#43349#43379#0" expanded="false" />
+                <element signature="method#onFailure#0;class#43093:43998" expanded="false" />
                 <element signature="method#loadtestContributions#0;class#MainActivity#0" expanded="false" />
-                <element signature="class#44430:46143" expanded="false" />
-                <element signature="method#onContributionsReceived#0;class#44430:46143" expanded="false" />
-                <element signature="method#onFailure#0;class#44430:46143" expanded="false" />
+                <element signature="class#44436:46149" expanded="false" />
+                <element signature="method#onContributionsReceived#0;class#44436:46149" expanded="false" />
+                <element signature="method#onFailure#0;class#44436:46149" expanded="false" />
                 <element signature="method#notifyNewContributionsReceived#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#loadPictureOfTheDay#0;class#MainActivity#0" expanded="false" />
-                <element signature="class#46719:47401" expanded="false" />
-                <element signature="method#onFeedReceived#0;class#46719:47401" expanded="false" />
-                <element signature="method#onError#0;class#46719:47401" expanded="false" />
+                <element signature="class#46725:47407" expanded="false" />
+                <element signature="method#onFeedReceived#0;class#46725:47407" expanded="false" />
+                <element signature="method#onError#0;class#46725:47407" expanded="false" />
                 <element signature="method#showToastMessage#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#onSaveInstanceState#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#onPermissionsGranted#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#onPermissionsDenied#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#onRequestPermissionsResult#0;class#MainActivity#0" expanded="false" />
-                <marker date="1490614871658" expanded="false" signature="24869:24964" ph="(view) → {" />
-                <marker date="1490614871658" expanded="false" signature="26470:26565" ph="(view) → {" />
               </folding>
             </state>
           </provider>
@@ -171,7 +143,7 @@
       <file leaf-file-name="OpusPlayer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/AudioPlayer/OpusPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1337">
+            <state relative-caret-position="250">
               <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -2971,9 +2943,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2994,9 +2966,9 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane />
-      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3330,7 +3302,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275218" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -3384,6 +3356,104 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/AudioPlayer/MediaPlayerService.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10350">
+          <caret line="414" column="34" selection-start-line="414" selection-start-column="34" selection-end-line="414" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/Fragments/AudioRegisterFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2825">
+          <caret line="113" column="5" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/Activities/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#7754#7775#0" expanded="false" />
+            <element signature="method#setupCollapsingImage#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#setupUploadMenu#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onActivityResult#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onDestroy#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#setupNavView#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#initViewPagerAndTabs#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#customizeTabFont#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onBackPressed#0;class#MainActivity#0" expanded="false" />
+            <element signature="e#21195#21210#0" expanded="false" />
+            <element signature="e#21969#22012#0" expanded="false" />
+            <element signature="method#onNavigationItemSelected#0;class#MainActivity#0" expanded="false" />
+            <element signature="class#23350:23761" expanded="false" />
+            <element signature="method#onLogoutSuccessful#0;class#23350:23761" expanded="false" />
+            <element signature="docComment;method#setupPlayerActions#0;class#MainActivity#0" expanded="false" />
+            <element signature="e#24987#25063#0" expanded="false" />
+            <element signature="e#26588#26664#0" expanded="false" />
+            <element signature="e#27338#27443#0" expanded="false" />
+            <element signature="method#onStartTrackingTouch#0;class#28043:28972" expanded="false" />
+            <element signature="method#onStopTrackingTouch#0;class#28043:28972" expanded="false" />
+            <element signature="docComment;field#seekBarReceiver#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onPause#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onResume#0;class#MainActivity#0" expanded="false" />
+            <element signature="docComment;field#MediaServiceActionReceiver#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#registerMediaControlsReceiver#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#MediaPlayerPlaying#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#MediaPlayerStopped#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#MediaPlayerPaused#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#updateServiceReferences#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#killMediaPlayerService#0;class#MainActivity#0" expanded="false" />
+            <element signature="e#35212#35252#0" expanded="false" />
+            <element signature="method#startRecordingVideo#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#takePictureIntent#0;class#MainActivity#0" expanded="false" />
+            <element signature="e#37327#37419#0" expanded="false" />
+            <element signature="e#39803#39838#0" expanded="false" />
+            <element signature="e#40436#40455#0" expanded="false" />
+            <element signature="e#40722#40782#0" expanded="false" />
+            <element signature="class#40991:41512" expanded="false" />
+            <element signature="method#onServiceConnected#0;class#40991:41512" expanded="false" />
+            <element signature="method#onServiceDisconnected#0;class#40991:41512" expanded="false" />
+            <element signature="method#removeNotification#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#updateStatusBarColor#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#revertStatusBarColor#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#getStatusBatColor#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#loadContributions#0;class#MainActivity#0" expanded="false" />
+            <element signature="class#43093:43998" expanded="false" />
+            <element signature="method#onContributionsReceived#0;class#43093:43998" expanded="false" />
+            <element signature="e#43349#43379#0" expanded="false" />
+            <element signature="method#onFailure#0;class#43093:43998" expanded="false" />
+            <element signature="method#loadtestContributions#0;class#MainActivity#0" expanded="false" />
+            <element signature="class#44436:46149" expanded="false" />
+            <element signature="method#onContributionsReceived#0;class#44436:46149" expanded="false" />
+            <element signature="method#onFailure#0;class#44436:46149" expanded="false" />
+            <element signature="method#notifyNewContributionsReceived#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#loadPictureOfTheDay#0;class#MainActivity#0" expanded="false" />
+            <element signature="class#46725:47407" expanded="false" />
+            <element signature="method#onFeedReceived#0;class#46725:47407" expanded="false" />
+            <element signature="method#onError#0;class#46725:47407" expanded="false" />
+            <element signature="method#showToastMessage#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onSaveInstanceState#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onPermissionsGranted#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onPermissionsDenied#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onRequestPermissionsResult#0;class#MainActivity#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/AudioPlayer/OpusPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/AudioPlayer/MediaPlayerService.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2750">
           <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
           <folding />
@@ -3411,7 +3481,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
             <element signature="e#7754#7775#0" expanded="false" />
             <element signature="method#setupCollapsingImage#0;class#MainActivity#0" expanded="false" />
             <element signature="method#setupUploadMenu#0;class#MainActivity#0" expanded="false" />
@@ -3421,18 +3490,17 @@
             <element signature="method#initViewPagerAndTabs#0;class#MainActivity#0" expanded="false" />
             <element signature="method#customizeTabFont#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#21189#21204#0" expanded="false" />
-            <element signature="e#21963#22006#0" expanded="false" />
-            <element signature="e#21963#22006#0" expanded="false" />
+            <element signature="e#21195#21210#0" expanded="false" />
+            <element signature="e#21969#22012#0" expanded="false" />
             <element signature="method#onNavigationItemSelected#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#23344:23755" expanded="false" />
-            <element signature="method#onLogoutSuccessful#0;class#23344:23755" expanded="false" />
+            <element signature="class#23350:23761" expanded="false" />
+            <element signature="method#onLogoutSuccessful#0;class#23350:23761" expanded="false" />
             <element signature="docComment;method#setupPlayerActions#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#24981#25057#0" expanded="false" />
-            <element signature="e#26582#26658#0" expanded="false" />
-            <element signature="e#27332#27437#0" expanded="false" />
-            <element signature="method#onStartTrackingTouch#0;class#28037:28966" expanded="false" />
-            <element signature="method#onStopTrackingTouch#0;class#28037:28966" expanded="false" />
+            <element signature="e#24987#25063#0" expanded="false" />
+            <element signature="e#26588#26664#0" expanded="false" />
+            <element signature="e#27338#27443#0" expanded="false" />
+            <element signature="method#onStartTrackingTouch#0;class#28043:28972" expanded="false" />
+            <element signature="method#onStopTrackingTouch#0;class#28043:28972" expanded="false" />
             <element signature="docComment;field#seekBarReceiver#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onPause#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onResume#0;class#MainActivity#0" expanded="false" />
@@ -3443,41 +3511,39 @@
             <element signature="method#MediaPlayerPaused#0;class#MainActivity#0" expanded="false" />
             <element signature="method#updateServiceReferences#0;class#MainActivity#0" expanded="false" />
             <element signature="method#killMediaPlayerService#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#35206#35246#0" expanded="false" />
+            <element signature="e#35212#35252#0" expanded="false" />
             <element signature="method#startRecordingVideo#0;class#MainActivity#0" expanded="false" />
             <element signature="method#takePictureIntent#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#37321#37413#0" expanded="false" />
-            <element signature="e#39797#39832#0" expanded="false" />
-            <element signature="e#40430#40449#0" expanded="false" />
-            <element signature="e#40716#40776#0" expanded="false" />
-            <element signature="class#40985:41506" expanded="false" />
-            <element signature="method#onServiceConnected#0;class#40985:41506" expanded="false" />
-            <element signature="method#onServiceDisconnected#0;class#40985:41506" expanded="false" />
+            <element signature="e#37327#37419#0" expanded="false" />
+            <element signature="e#39803#39838#0" expanded="false" />
+            <element signature="e#40436#40455#0" expanded="false" />
+            <element signature="e#40722#40782#0" expanded="false" />
+            <element signature="class#40991:41512" expanded="false" />
+            <element signature="method#onServiceConnected#0;class#40991:41512" expanded="false" />
+            <element signature="method#onServiceDisconnected#0;class#40991:41512" expanded="false" />
             <element signature="method#removeNotification#0;class#MainActivity#0" expanded="false" />
             <element signature="method#updateStatusBarColor#0;class#MainActivity#0" expanded="false" />
             <element signature="method#revertStatusBarColor#0;class#MainActivity#0" expanded="false" />
             <element signature="method#getStatusBatColor#0;class#MainActivity#0" expanded="false" />
             <element signature="method#loadContributions#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#43087:43992" expanded="false" />
-            <element signature="method#onContributionsReceived#0;class#43087:43992" expanded="false" />
-            <element signature="e#43343#43373#0" expanded="false" />
-            <element signature="method#onFailure#0;class#43087:43992" expanded="false" />
+            <element signature="class#43093:43998" expanded="false" />
+            <element signature="method#onContributionsReceived#0;class#43093:43998" expanded="false" />
+            <element signature="e#43349#43379#0" expanded="false" />
+            <element signature="method#onFailure#0;class#43093:43998" expanded="false" />
             <element signature="method#loadtestContributions#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#44430:46143" expanded="false" />
-            <element signature="method#onContributionsReceived#0;class#44430:46143" expanded="false" />
-            <element signature="method#onFailure#0;class#44430:46143" expanded="false" />
+            <element signature="class#44436:46149" expanded="false" />
+            <element signature="method#onContributionsReceived#0;class#44436:46149" expanded="false" />
+            <element signature="method#onFailure#0;class#44436:46149" expanded="false" />
             <element signature="method#notifyNewContributionsReceived#0;class#MainActivity#0" expanded="false" />
             <element signature="method#loadPictureOfTheDay#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#46719:47401" expanded="false" />
-            <element signature="method#onFeedReceived#0;class#46719:47401" expanded="false" />
-            <element signature="method#onError#0;class#46719:47401" expanded="false" />
+            <element signature="class#46725:47407" expanded="false" />
+            <element signature="method#onFeedReceived#0;class#46725:47407" expanded="false" />
+            <element signature="method#onError#0;class#46725:47407" expanded="false" />
             <element signature="method#showToastMessage#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onSaveInstanceState#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onPermissionsGranted#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onPermissionsDenied#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onRequestPermissionsResult#0;class#MainActivity#0" expanded="false" />
-            <marker date="1490614871658" expanded="false" signature="24869:24964" ph="(view) → {" />
-            <marker date="1490614871658" expanded="false" signature="26470:26565" ph="(view) → {" />
           </folding>
         </state>
       </provider>
@@ -3532,7 +3598,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
             <element signature="e#7754#7775#0" expanded="false" />
             <element signature="method#setupCollapsingImage#0;class#MainActivity#0" expanded="false" />
             <element signature="method#setupUploadMenu#0;class#MainActivity#0" expanded="false" />
@@ -3542,18 +3607,17 @@
             <element signature="method#initViewPagerAndTabs#0;class#MainActivity#0" expanded="false" />
             <element signature="method#customizeTabFont#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#21189#21204#0" expanded="false" />
-            <element signature="e#21963#22006#0" expanded="false" />
-            <element signature="e#21963#22006#0" expanded="false" />
+            <element signature="e#21195#21210#0" expanded="false" />
+            <element signature="e#21969#22012#0" expanded="false" />
             <element signature="method#onNavigationItemSelected#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#23344:23755" expanded="false" />
-            <element signature="method#onLogoutSuccessful#0;class#23344:23755" expanded="false" />
+            <element signature="class#23350:23761" expanded="false" />
+            <element signature="method#onLogoutSuccessful#0;class#23350:23761" expanded="false" />
             <element signature="docComment;method#setupPlayerActions#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#24981#25057#0" expanded="false" />
-            <element signature="e#26582#26658#0" expanded="false" />
-            <element signature="e#27332#27437#0" expanded="false" />
-            <element signature="method#onStartTrackingTouch#0;class#28037:28966" expanded="false" />
-            <element signature="method#onStopTrackingTouch#0;class#28037:28966" expanded="false" />
+            <element signature="e#24987#25063#0" expanded="false" />
+            <element signature="e#26588#26664#0" expanded="false" />
+            <element signature="e#27338#27443#0" expanded="false" />
+            <element signature="method#onStartTrackingTouch#0;class#28043:28972" expanded="false" />
+            <element signature="method#onStopTrackingTouch#0;class#28043:28972" expanded="false" />
             <element signature="docComment;field#seekBarReceiver#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onPause#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onResume#0;class#MainActivity#0" expanded="false" />
@@ -3564,41 +3628,39 @@
             <element signature="method#MediaPlayerPaused#0;class#MainActivity#0" expanded="false" />
             <element signature="method#updateServiceReferences#0;class#MainActivity#0" expanded="false" />
             <element signature="method#killMediaPlayerService#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#35206#35246#0" expanded="false" />
+            <element signature="e#35212#35252#0" expanded="false" />
             <element signature="method#startRecordingVideo#0;class#MainActivity#0" expanded="false" />
             <element signature="method#takePictureIntent#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#37321#37413#0" expanded="false" />
-            <element signature="e#39797#39832#0" expanded="false" />
-            <element signature="e#40430#40449#0" expanded="false" />
-            <element signature="e#40716#40776#0" expanded="false" />
-            <element signature="class#40985:41506" expanded="false" />
-            <element signature="method#onServiceConnected#0;class#40985:41506" expanded="false" />
-            <element signature="method#onServiceDisconnected#0;class#40985:41506" expanded="false" />
+            <element signature="e#37327#37419#0" expanded="false" />
+            <element signature="e#39803#39838#0" expanded="false" />
+            <element signature="e#40436#40455#0" expanded="false" />
+            <element signature="e#40722#40782#0" expanded="false" />
+            <element signature="class#40991:41512" expanded="false" />
+            <element signature="method#onServiceConnected#0;class#40991:41512" expanded="false" />
+            <element signature="method#onServiceDisconnected#0;class#40991:41512" expanded="false" />
             <element signature="method#removeNotification#0;class#MainActivity#0" expanded="false" />
             <element signature="method#updateStatusBarColor#0;class#MainActivity#0" expanded="false" />
             <element signature="method#revertStatusBarColor#0;class#MainActivity#0" expanded="false" />
             <element signature="method#getStatusBatColor#0;class#MainActivity#0" expanded="false" />
             <element signature="method#loadContributions#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#43087:43992" expanded="false" />
-            <element signature="method#onContributionsReceived#0;class#43087:43992" expanded="false" />
-            <element signature="e#43343#43373#0" expanded="false" />
-            <element signature="method#onFailure#0;class#43087:43992" expanded="false" />
+            <element signature="class#43093:43998" expanded="false" />
+            <element signature="method#onContributionsReceived#0;class#43093:43998" expanded="false" />
+            <element signature="e#43349#43379#0" expanded="false" />
+            <element signature="method#onFailure#0;class#43093:43998" expanded="false" />
             <element signature="method#loadtestContributions#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#44430:46143" expanded="false" />
-            <element signature="method#onContributionsReceived#0;class#44430:46143" expanded="false" />
-            <element signature="method#onFailure#0;class#44430:46143" expanded="false" />
+            <element signature="class#44436:46149" expanded="false" />
+            <element signature="method#onContributionsReceived#0;class#44436:46149" expanded="false" />
+            <element signature="method#onFailure#0;class#44436:46149" expanded="false" />
             <element signature="method#notifyNewContributionsReceived#0;class#MainActivity#0" expanded="false" />
             <element signature="method#loadPictureOfTheDay#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#46719:47401" expanded="false" />
-            <element signature="method#onFeedReceived#0;class#46719:47401" expanded="false" />
-            <element signature="method#onError#0;class#46719:47401" expanded="false" />
+            <element signature="class#46725:47407" expanded="false" />
+            <element signature="method#onFeedReceived#0;class#46725:47407" expanded="false" />
+            <element signature="method#onError#0;class#46725:47407" expanded="false" />
             <element signature="method#showToastMessage#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onSaveInstanceState#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onPermissionsGranted#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onPermissionsDenied#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onRequestPermissionsResult#0;class#MainActivity#0" expanded="false" />
-            <marker date="1490614871658" expanded="false" signature="24869:24964" ph="(view) → {" />
-            <marker date="1490614871658" expanded="false" signature="26470:26565" ph="(view) → {" />
           </folding>
         </state>
       </provider>
@@ -3653,7 +3715,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
             <element signature="e#7754#7775#0" expanded="false" />
             <element signature="method#setupCollapsingImage#0;class#MainActivity#0" expanded="false" />
             <element signature="method#setupUploadMenu#0;class#MainActivity#0" expanded="false" />
@@ -3663,18 +3724,17 @@
             <element signature="method#initViewPagerAndTabs#0;class#MainActivity#0" expanded="false" />
             <element signature="method#customizeTabFont#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#21189#21204#0" expanded="false" />
-            <element signature="e#21963#22006#0" expanded="false" />
-            <element signature="e#21963#22006#0" expanded="false" />
+            <element signature="e#21195#21210#0" expanded="false" />
+            <element signature="e#21969#22012#0" expanded="false" />
             <element signature="method#onNavigationItemSelected#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#23344:23755" expanded="false" />
-            <element signature="method#onLogoutSuccessful#0;class#23344:23755" expanded="false" />
+            <element signature="class#23350:23761" expanded="false" />
+            <element signature="method#onLogoutSuccessful#0;class#23350:23761" expanded="false" />
             <element signature="docComment;method#setupPlayerActions#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#24981#25057#0" expanded="false" />
-            <element signature="e#26582#26658#0" expanded="false" />
-            <element signature="e#27332#27437#0" expanded="false" />
-            <element signature="method#onStartTrackingTouch#0;class#28037:28966" expanded="false" />
-            <element signature="method#onStopTrackingTouch#0;class#28037:28966" expanded="false" />
+            <element signature="e#24987#25063#0" expanded="false" />
+            <element signature="e#26588#26664#0" expanded="false" />
+            <element signature="e#27338#27443#0" expanded="false" />
+            <element signature="method#onStartTrackingTouch#0;class#28043:28972" expanded="false" />
+            <element signature="method#onStopTrackingTouch#0;class#28043:28972" expanded="false" />
             <element signature="docComment;field#seekBarReceiver#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onPause#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onResume#0;class#MainActivity#0" expanded="false" />
@@ -3685,41 +3745,39 @@
             <element signature="method#MediaPlayerPaused#0;class#MainActivity#0" expanded="false" />
             <element signature="method#updateServiceReferences#0;class#MainActivity#0" expanded="false" />
             <element signature="method#killMediaPlayerService#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#35206#35246#0" expanded="false" />
+            <element signature="e#35212#35252#0" expanded="false" />
             <element signature="method#startRecordingVideo#0;class#MainActivity#0" expanded="false" />
             <element signature="method#takePictureIntent#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#37321#37413#0" expanded="false" />
-            <element signature="e#39797#39832#0" expanded="false" />
-            <element signature="e#40430#40449#0" expanded="false" />
-            <element signature="e#40716#40776#0" expanded="false" />
-            <element signature="class#40985:41506" expanded="false" />
-            <element signature="method#onServiceConnected#0;class#40985:41506" expanded="false" />
-            <element signature="method#onServiceDisconnected#0;class#40985:41506" expanded="false" />
+            <element signature="e#37327#37419#0" expanded="false" />
+            <element signature="e#39803#39838#0" expanded="false" />
+            <element signature="e#40436#40455#0" expanded="false" />
+            <element signature="e#40722#40782#0" expanded="false" />
+            <element signature="class#40991:41512" expanded="false" />
+            <element signature="method#onServiceConnected#0;class#40991:41512" expanded="false" />
+            <element signature="method#onServiceDisconnected#0;class#40991:41512" expanded="false" />
             <element signature="method#removeNotification#0;class#MainActivity#0" expanded="false" />
             <element signature="method#updateStatusBarColor#0;class#MainActivity#0" expanded="false" />
             <element signature="method#revertStatusBarColor#0;class#MainActivity#0" expanded="false" />
             <element signature="method#getStatusBatColor#0;class#MainActivity#0" expanded="false" />
             <element signature="method#loadContributions#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#43087:43992" expanded="false" />
-            <element signature="method#onContributionsReceived#0;class#43087:43992" expanded="false" />
-            <element signature="e#43343#43373#0" expanded="false" />
-            <element signature="method#onFailure#0;class#43087:43992" expanded="false" />
+            <element signature="class#43093:43998" expanded="false" />
+            <element signature="method#onContributionsReceived#0;class#43093:43998" expanded="false" />
+            <element signature="e#43349#43379#0" expanded="false" />
+            <element signature="method#onFailure#0;class#43093:43998" expanded="false" />
             <element signature="method#loadtestContributions#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#44430:46143" expanded="false" />
-            <element signature="method#onContributionsReceived#0;class#44430:46143" expanded="false" />
-            <element signature="method#onFailure#0;class#44430:46143" expanded="false" />
+            <element signature="class#44436:46149" expanded="false" />
+            <element signature="method#onContributionsReceived#0;class#44436:46149" expanded="false" />
+            <element signature="method#onFailure#0;class#44436:46149" expanded="false" />
             <element signature="method#notifyNewContributionsReceived#0;class#MainActivity#0" expanded="false" />
             <element signature="method#loadPictureOfTheDay#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#46719:47401" expanded="false" />
-            <element signature="method#onFeedReceived#0;class#46719:47401" expanded="false" />
-            <element signature="method#onError#0;class#46719:47401" expanded="false" />
+            <element signature="class#46725:47407" expanded="false" />
+            <element signature="method#onFeedReceived#0;class#46725:47407" expanded="false" />
+            <element signature="method#onError#0;class#46725:47407" expanded="false" />
             <element signature="method#showToastMessage#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onSaveInstanceState#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onPermissionsGranted#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onPermissionsDenied#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onRequestPermissionsResult#0;class#MainActivity#0" expanded="false" />
-            <marker date="1490614871658" expanded="false" signature="24869:24964" ph="(view) → {" />
-            <marker date="1490614871658" expanded="false" signature="26470:26565" ph="(view) → {" />
           </folding>
         </state>
       </provider>
@@ -3883,7 +3941,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/AudioPlayer/MediaPlayerService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2117">
+        <state relative-caret-position="9325">
           <caret line="414" column="34" selection-start-line="414" selection-start-column="34" selection-end-line="414" selection-end-column="34" />
           <folding />
         </state>
@@ -3891,7 +3949,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/Fragments/AudioRegisterFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
+        <state relative-caret-position="2100">
           <caret line="113" column="5" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
           <folding />
         </state>
@@ -3899,7 +3957,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/AudioPlayer/OpusPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1337">
+        <state relative-caret-position="250">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -3909,10 +3967,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/Activities/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="90" column="6" selection-start-line="90" selection-start-column="6" selection-end-line="90" selection-end-column="6" />
+        <state relative-caret-position="300">
+          <caret line="193" column="15" selection-start-line="193" selection-start-column="15" selection-end-line="193" selection-end-column="15" />
           <folding>
-            <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
             <element signature="e#7754#7775#0" expanded="false" />
             <element signature="method#setupCollapsingImage#0;class#MainActivity#0" expanded="false" />
             <element signature="method#setupUploadMenu#0;class#MainActivity#0" expanded="false" />
@@ -3922,18 +3979,17 @@
             <element signature="method#initViewPagerAndTabs#0;class#MainActivity#0" expanded="false" />
             <element signature="method#customizeTabFont#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#21189#21204#0" expanded="false" />
-            <element signature="e#21963#22006#0" expanded="false" />
-            <element signature="e#21963#22006#0" expanded="false" />
+            <element signature="e#21195#21210#0" expanded="false" />
+            <element signature="e#21969#22012#0" expanded="false" />
             <element signature="method#onNavigationItemSelected#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#23344:23755" expanded="false" />
-            <element signature="method#onLogoutSuccessful#0;class#23344:23755" expanded="false" />
+            <element signature="class#23350:23761" expanded="false" />
+            <element signature="method#onLogoutSuccessful#0;class#23350:23761" expanded="false" />
             <element signature="docComment;method#setupPlayerActions#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#24981#25057#0" expanded="false" />
-            <element signature="e#26582#26658#0" expanded="false" />
-            <element signature="e#27332#27437#0" expanded="false" />
-            <element signature="method#onStartTrackingTouch#0;class#28037:28966" expanded="false" />
-            <element signature="method#onStopTrackingTouch#0;class#28037:28966" expanded="false" />
+            <element signature="e#24987#25063#0" expanded="false" />
+            <element signature="e#26588#26664#0" expanded="false" />
+            <element signature="e#27338#27443#0" expanded="false" />
+            <element signature="method#onStartTrackingTouch#0;class#28043:28972" expanded="false" />
+            <element signature="method#onStopTrackingTouch#0;class#28043:28972" expanded="false" />
             <element signature="docComment;field#seekBarReceiver#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onPause#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onResume#0;class#MainActivity#0" expanded="false" />
@@ -3944,41 +4000,39 @@
             <element signature="method#MediaPlayerPaused#0;class#MainActivity#0" expanded="false" />
             <element signature="method#updateServiceReferences#0;class#MainActivity#0" expanded="false" />
             <element signature="method#killMediaPlayerService#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#35206#35246#0" expanded="false" />
+            <element signature="e#35212#35252#0" expanded="false" />
             <element signature="method#startRecordingVideo#0;class#MainActivity#0" expanded="false" />
             <element signature="method#takePictureIntent#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#37321#37413#0" expanded="false" />
-            <element signature="e#39797#39832#0" expanded="false" />
-            <element signature="e#40430#40449#0" expanded="false" />
-            <element signature="e#40716#40776#0" expanded="false" />
-            <element signature="class#40985:41506" expanded="false" />
-            <element signature="method#onServiceConnected#0;class#40985:41506" expanded="false" />
-            <element signature="method#onServiceDisconnected#0;class#40985:41506" expanded="false" />
+            <element signature="e#37327#37419#0" expanded="false" />
+            <element signature="e#39803#39838#0" expanded="false" />
+            <element signature="e#40436#40455#0" expanded="false" />
+            <element signature="e#40722#40782#0" expanded="false" />
+            <element signature="class#40991:41512" expanded="false" />
+            <element signature="method#onServiceConnected#0;class#40991:41512" expanded="false" />
+            <element signature="method#onServiceDisconnected#0;class#40991:41512" expanded="false" />
             <element signature="method#removeNotification#0;class#MainActivity#0" expanded="false" />
             <element signature="method#updateStatusBarColor#0;class#MainActivity#0" expanded="false" />
             <element signature="method#revertStatusBarColor#0;class#MainActivity#0" expanded="false" />
             <element signature="method#getStatusBatColor#0;class#MainActivity#0" expanded="false" />
             <element signature="method#loadContributions#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#43087:43992" expanded="false" />
-            <element signature="method#onContributionsReceived#0;class#43087:43992" expanded="false" />
-            <element signature="e#43343#43373#0" expanded="false" />
-            <element signature="method#onFailure#0;class#43087:43992" expanded="false" />
+            <element signature="class#43093:43998" expanded="false" />
+            <element signature="method#onContributionsReceived#0;class#43093:43998" expanded="false" />
+            <element signature="e#43349#43379#0" expanded="false" />
+            <element signature="method#onFailure#0;class#43093:43998" expanded="false" />
             <element signature="method#loadtestContributions#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#44430:46143" expanded="false" />
-            <element signature="method#onContributionsReceived#0;class#44430:46143" expanded="false" />
-            <element signature="method#onFailure#0;class#44430:46143" expanded="false" />
+            <element signature="class#44436:46149" expanded="false" />
+            <element signature="method#onContributionsReceived#0;class#44436:46149" expanded="false" />
+            <element signature="method#onFailure#0;class#44436:46149" expanded="false" />
             <element signature="method#notifyNewContributionsReceived#0;class#MainActivity#0" expanded="false" />
             <element signature="method#loadPictureOfTheDay#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#46719:47401" expanded="false" />
-            <element signature="method#onFeedReceived#0;class#46719:47401" expanded="false" />
-            <element signature="method#onError#0;class#46719:47401" expanded="false" />
+            <element signature="class#46725:47407" expanded="false" />
+            <element signature="method#onFeedReceived#0;class#46725:47407" expanded="false" />
+            <element signature="method#onError#0;class#46725:47407" expanded="false" />
             <element signature="method#showToastMessage#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onSaveInstanceState#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onPermissionsGranted#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onPermissionsDenied#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onRequestPermissionsResult#0;class#MainActivity#0" expanded="false" />
-            <marker date="1490614871658" expanded="false" signature="24869:24964" ph="(view) → {" />
-            <marker date="1490614871658" expanded="false" signature="26470:26565" ph="(view) → {" />
           </folding>
         </state>
       </provider>

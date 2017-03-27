@@ -10,5 +10,23 @@
         sha1="a4f3ee28f03124e60d40c8a3057ae22c89e42992">
         <dex dex="C:\Users\valdi\Desktop\CommonsLab\app\build\intermediates\pre-dexed\debug\classes_fdfbafdaaddb8007917072f231726954926cd278.jar" />
     </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\valdi\Desktop\CommonsLab\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="25c5ece0cb4fea41c841a434bbd4a70c51741f67">
+        <dex dex="C:\Users\valdi\Desktop\CommonsLab\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_d0d53639f412a3308814167f7ae9d83cbc13a4cf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\valdi\Desktop\CommonsLab\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\valdi\Desktop\CommonsLab\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_c1eb121761560aaee47a48f051607c5932da1550\classes.dex" />
+    </item>
 
 </items>

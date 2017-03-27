@@ -193,7 +193,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
              *
              */
 
-            /**
+//            /**
              //delete this username assigning
              username = "Thalie_Envolée"; //test user for audio files
              loadtestContributions(username, limit, false);
@@ -202,9 +202,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
              //username = "Operationundies"; //test user for images
              username = "Martin_Falbisoner"; //test user for images
              loadtestContributions(username, limit, true);
-             */
+//             */
 
-            loadContributions(username, limit);
+//            loadContributions(username, limit);
         }
 
         loadPictureOfTheDay();
