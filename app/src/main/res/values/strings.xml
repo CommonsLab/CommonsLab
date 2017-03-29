@@ -61,4 +61,11 @@
     <string name="deny_permission">Deny</string>
     <string name="allow_permission">Allow</string>
 
+
+    <!--Video capture-->
+    <string name="stop">Stop</string>
+    <string name="description_info">Info</string>
+    <string name="permission_request">CommonsLab needs permission for camera and audio recording.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+
 </resources>

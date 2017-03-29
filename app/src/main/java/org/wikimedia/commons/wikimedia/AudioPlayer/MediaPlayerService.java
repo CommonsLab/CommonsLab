@@ -426,7 +426,6 @@ public class MediaPlayerService extends Service implements MediaPlayer.OnComplet
         mediaPlayer.reset();
         initMediaPlayer();
 
-
         //Send a broadcast to the Activity
         Intent broadcastIntent = new Intent(MediaServiceActions.MEDIA_SERVICE_ACTION_NEXT);
         sendBroadcast(broadcastIntent);

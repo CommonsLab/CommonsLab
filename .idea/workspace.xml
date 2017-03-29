@@ -6,14 +6,37 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
     <option name="LOGCAT_FORMAT_STRING" value="%4$c/%5$s: %6$s" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acca7982-cfdb-48f2-a510-dda64c1e1f9e" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_25_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_25_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/cardview_v7_25_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/design_25_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_25_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_25_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_compat_25_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_ui_25_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_utils_25_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_fragment_25_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_media_compat_25_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_25_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_25_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/transition_25_1_0.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OpenPlayer/build/outputs/aar/open-player-android-debug.aar" afterPath="$PROJECT_DIR$/OpenPlayer/build/outputs/aar/open-player-android-debug.aar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OpenPlayer/build/outputs/aar/open-player-android-release.aar" afterPath="$PROJECT_DIR$/OpenPlayer/build/outputs/aar/open-player-android-release.aar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OpenPlayer/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/OpenPlayer/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OpenPlayer/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/OpenPlayer/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OpenPlayer/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/OpenPlayer/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/Activities/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/Activities/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/AudioPlayer/MediaPlayerService.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/AudioPlayer/MediaPlayerService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/Fragments/UploadToCommonsFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/Fragments/UploadToCommonsFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
     </list>
     <ignored path="wikimedia-commons.iws" />
@@ -45,114 +68,7 @@
     <favorites_list name="wikimedia-commons" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="MediaPlayerService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/AudioPlayer/MediaPlayerService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9325">
-              <caret line="414" column="34" selection-start-line="414" selection-start-column="34" selection-end-line="414" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AudioRegisterFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/Fragments/AudioRegisterFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2100">
-              <caret line="113" column="5" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/Activities/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="193" column="15" selection-start-line="193" selection-start-column="15" selection-end-line="193" selection-end-column="15" />
-              <folding>
-                <element signature="e#7754#7775#0" expanded="false" />
-                <element signature="method#setupCollapsingImage#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#setupUploadMenu#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#onActivityResult#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#onDestroy#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#setupNavView#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#initViewPagerAndTabs#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#customizeTabFont#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#onBackPressed#0;class#MainActivity#0" expanded="false" />
-                <element signature="e#21195#21210#0" expanded="false" />
-                <element signature="e#21969#22012#0" expanded="false" />
-                <element signature="method#onNavigationItemSelected#0;class#MainActivity#0" expanded="false" />
-                <element signature="class#23350:23761" expanded="false" />
-                <element signature="method#onLogoutSuccessful#0;class#23350:23761" expanded="false" />
-                <element signature="docComment;method#setupPlayerActions#0;class#MainActivity#0" expanded="false" />
-                <element signature="e#24987#25063#0" expanded="false" />
-                <element signature="e#26588#26664#0" expanded="false" />
-                <element signature="e#27338#27443#0" expanded="false" />
-                <element signature="method#onStartTrackingTouch#0;class#28043:28972" expanded="false" />
-                <element signature="method#onStopTrackingTouch#0;class#28043:28972" expanded="false" />
-                <element signature="docComment;field#seekBarReceiver#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#onPause#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#onResume#0;class#MainActivity#0" expanded="false" />
-                <element signature="docComment;field#MediaServiceActionReceiver#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#registerMediaControlsReceiver#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#MediaPlayerPlaying#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#MediaPlayerStopped#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#MediaPlayerPaused#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#updateServiceReferences#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#killMediaPlayerService#0;class#MainActivity#0" expanded="false" />
-                <element signature="e#35212#35252#0" expanded="false" />
-                <element signature="method#startRecordingVideo#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#takePictureIntent#0;class#MainActivity#0" expanded="false" />
-                <element signature="e#37327#37419#0" expanded="false" />
-                <element signature="e#39803#39838#0" expanded="false" />
-                <element signature="e#40436#40455#0" expanded="false" />
-                <element signature="e#40722#40782#0" expanded="false" />
-                <element signature="class#40991:41512" expanded="false" />
-                <element signature="method#onServiceConnected#0;class#40991:41512" expanded="false" />
-                <element signature="method#onServiceDisconnected#0;class#40991:41512" expanded="false" />
-                <element signature="method#removeNotification#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#updateStatusBarColor#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#revertStatusBarColor#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#getStatusBatColor#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#loadContributions#0;class#MainActivity#0" expanded="false" />
-                <element signature="class#43093:43998" expanded="false" />
-                <element signature="method#onContributionsReceived#0;class#43093:43998" expanded="false" />
-                <element signature="e#43349#43379#0" expanded="false" />
-                <element signature="method#onFailure#0;class#43093:43998" expanded="false" />
-                <element signature="method#loadtestContributions#0;class#MainActivity#0" expanded="false" />
-                <element signature="class#44436:46149" expanded="false" />
-                <element signature="method#onContributionsReceived#0;class#44436:46149" expanded="false" />
-                <element signature="method#onFailure#0;class#44436:46149" expanded="false" />
-                <element signature="method#notifyNewContributionsReceived#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#loadPictureOfTheDay#0;class#MainActivity#0" expanded="false" />
-                <element signature="class#46725:47407" expanded="false" />
-                <element signature="method#onFeedReceived#0;class#46725:47407" expanded="false" />
-                <element signature="method#onError#0;class#46725:47407" expanded="false" />
-                <element signature="method#showToastMessage#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#onSaveInstanceState#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#onPermissionsGranted#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#onPermissionsDenied#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#onRequestPermissionsResult#0;class#MainActivity#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OpusPlayer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/AudioPlayer/OpusPlayer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -270,6 +186,11 @@
                 <option name="name" value="compileDebugJavaWithJavac" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:cardview-v7:25.3.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportCardviewV72530Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="generateDebugAndroidTestBuildConfig" />
               </ExternalTaskPojo>
@@ -301,11 +222,6 @@
                 <option name="name" value="components" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:animated-vector-drawable:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportAnimatedVectorDrawable2510Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="processDebugAndroidTestManifest" />
               </ExternalTaskPojo>
@@ -314,8 +230,18 @@
                 <option name="name" value="compileDebugUnitTestJavaWithJavac" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-core-utils:25.3.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportCoreUtils2530Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="transformResourcesWithMergeJavaResForReleaseUnitTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:design:25.3.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportDesign2530Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -392,9 +318,9 @@
                 <option name="name" value="mergeDebugAndroidTestAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-fragment:25.1.0" />
+                <option name="description" value="Prepare com.android.support:support-media-compat:25.3.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportFragment2510Library" />
+                <option name="name" value="prepareComAndroidSupportSupportMediaCompat2530Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -465,16 +391,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="mergeReleaseShaders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:appcompat-v7:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportAppcompatV72510Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-core-ui:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportCoreUi2510Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -594,11 +510,6 @@
                 <option name="name" value="sourceSets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:recyclerview-v7:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportRecyclerviewV72510Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="transformResourcesWithMergeJavaResForDebugUnitTest" />
               </ExternalTaskPojo>
@@ -613,21 +524,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="prepareDebugUnitTestDependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:transition:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportTransition2510Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-vector-drawable:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2510Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-compat:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportCompat2510Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -711,6 +607,11 @@
                 <option name="name" value="model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:appcompat-v7:25.3.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportAppcompatV72530Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the tasks runnable from root project 'CommonsLab' (some of the displayed tasks may belong to subprojects)." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="tasks" />
@@ -746,6 +647,11 @@
                 <option name="name" value="generateDebugResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-core-ui:25.3.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportCoreUi2530Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="install" />
               </ExternalTaskPojo>
@@ -777,11 +683,6 @@
                 <option name="name" value="compileReleaseRenderscript" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-v4:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportV42510Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Assembles all Debug builds." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="assembleDebug" />
@@ -794,6 +695,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="javaPreCompileDebugAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:transition:25.3.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportTransition2530Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -812,6 +718,11 @@
                 <option name="name" value="prepareReleaseDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-vector-drawable:25.3.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2530Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the insight into a specific dependency in root project 'CommonsLab'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencyInsight" />
@@ -827,6 +738,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="incrementalDebugUnitTestJavaCompilationSafeguard" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-compat:25.3.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportCompat2530Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -861,6 +777,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="packageRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-v13:25.3.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportV132530Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -938,9 +859,9 @@
                 <option name="name" value="transformResourcesWithMergeJavaResForDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:cardview-v7:25.1.0" />
+                <option name="description" value="Prepare com.android.support:recyclerview-v7:25.3.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportCardviewV72510Library" />
+                <option name="name" value="prepareComAndroidSupportRecyclerviewV72530Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project and all projects that depend on it." />
@@ -948,9 +869,9 @@
                 <option name="name" value="buildDependents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:design:25.1.0" />
+                <option name="description" value="Prepare com.android.support:support-v4:25.3.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportDesign2510Library" />
+                <option name="name" value="prepareComAndroidSupportSupportV42530Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prepare com.github.clans:fab:1.6.4" />
@@ -964,11 +885,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="mergeReleaseAssets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-core-utils:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportCoreUtils2510Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -997,9 +913,9 @@
                 <option name="name" value="clean" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-media-compat:25.1.0" />
+                <option name="description" value="Prepare com.android.support:support-fragment:25.3.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportMediaCompat2510Library" />
+                <option name="name" value="prepareComAndroidSupportSupportFragment2530Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project." />
@@ -1031,6 +947,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="packageDebugAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:animated-vector-drawable:25.3.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportAnimatedVectorDrawable2530Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the properties of root project 'CommonsLab'." />
@@ -1743,6 +1664,11 @@
                 <option name="name" value="model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:appcompat-v7:25.3.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComAndroidSupportAppcompatV72530Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the tasks runnable from project ':app'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="tasks" />
@@ -1794,6 +1720,16 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="compileDebugJavaWithJavac" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:cardview-v7:25.3.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComAndroidSupportCardviewV72530Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-core-ui:25.3.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComAndroidSupportSupportCoreUi2530Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project and all projects it depends on." />
@@ -1850,16 +1786,6 @@
                 <option name="name" value="compileReleaseRenderscript" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:animated-vector-drawable:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportAnimatedVectorDrawable2510Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-v4:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportSupportV42510Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Assembles all Debug builds." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="assembleDebug" />
@@ -1878,8 +1804,18 @@
                 <option name="name" value="compileDebugUnitTestJavaWithJavac" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-core-utils:25.3.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComAndroidSupportSupportCoreUtils2530Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="transformResourcesWithMergeJavaResForReleaseUnitTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:design:25.3.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComAndroidSupportDesign2530Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -1913,6 +1849,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="mergeReleaseResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:transition:25.3.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComAndroidSupportTransition2530Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -1960,13 +1901,18 @@
                 <option name="name" value="mergeDebugAndroidTestAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-fragment:25.1.0" />
+                <option name="description" value="Prepare com.android.support:support-media-compat:25.3.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportSupportFragment2510Library" />
+                <option name="name" value="prepareComAndroidSupportSupportMediaCompat2530Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="processReleaseManifest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-vector-drawable:25.3.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2530Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Uninstalls the android (on device) tests for the Debug build." />
@@ -1998,6 +1944,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="incrementalDebugUnitTestJavaCompilationSafeguard" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-compat:25.3.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComAndroidSupportSupportCompat2530Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -2062,6 +2013,11 @@
                 <option name="name" value="packageRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-v13:25.3.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComAndroidSupportSupportV132530Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="validateSigningDebug" />
               </ExternalTaskPojo>
@@ -2092,16 +2048,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="mergeReleaseShaders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:appcompat-v7:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportAppcompatV72510Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-core-ui:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportSupportCoreUi2510Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the Android dependencies of the project." />
@@ -2246,9 +2192,9 @@
                 <option name="name" value="compileReleaseAidl" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:cardview-v7:25.1.0" />
+                <option name="description" value="Prepare com.android.support:recyclerview-v7:25.3.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportCardviewV72510Library" />
+                <option name="name" value="prepareComAndroidSupportRecyclerviewV72530Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prepare com.android.support.test:runner:0.5" />
@@ -2270,14 +2216,14 @@
                 <option name="name" value="generateDebugAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-v4:25.3.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComAndroidSupportSupportV42530Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the dependent components of components in project ':app'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="dependentComponents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:design:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportDesign2510Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays all buildscript dependencies declared in project ':app'." />
@@ -2303,22 +2249,12 @@
                 <option name="name" value="sourceSets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:recyclerview-v7:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportRecyclerviewV72510Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="transformResourcesWithMergeJavaResForDebugUnitTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="mergeReleaseAssets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-core-utils:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportSupportCoreUtils2510Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -2333,24 +2269,9 @@
                 <option name="name" value="prepareDebugUnitTestDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:transition:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportTransition2510Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Prepare com.android.support.test:exposed-instrumentation-api-publish:0.5" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="prepareComAndroidSupportTestExposedInstrumentationApiPublish05Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-vector-drawable:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2510Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-compat:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportSupportCompat2510Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -2385,13 +2306,13 @@
                 <option name="name" value="clean" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-media-compat:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportSupportMediaCompat2510Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="preDebugBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-fragment:25.3.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComAndroidSupportSupportFragment2530Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -2439,6 +2360,11 @@
                 <option name="name" value="packageDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:animated-vector-drawable:25.3.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComAndroidSupportAnimatedVectorDrawable2530Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="generateReleaseResValues" />
               </ExternalTaskPojo>
@@ -2455,7 +2381,7 @@
     <option name="modificationStamps">
       <map>
         <entry key="$PROJECT_DIR$" value="4471099234000" />
-        <entry key="C:\Users\valdi\Desktop\CommonsLab" value="5961867090371" />
+        <entry key="C:\Users\valdi\Desktop\CommonsLab" value="5962099243156" />
         <entry key="C:\Users\valdi\Desktop\wikimedia-commons" value="4464371334221" />
       </map>
     </option>
@@ -2901,14 +2827,18 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fab_layout.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_audio_register.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/Fragments/UploadToCommonsFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/Fragments/AudioRegisterFragment.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/Fragments/AudioFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/AudioPlayer/MediaPlayerService.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/AudioPlayer/OpusPlayer.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/Activities/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/Fragments/UploadToCommonsFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-land/fragment_camera2_video.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_camera2_video.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/VideoRecording/Camera2VideoFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/AudioPlayer/MediaPlayerService.java" />
       </list>
     </option>
   </component>
@@ -2943,9 +2873,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane />
-      </pane>
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2964,11 +2891,88 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommonsLab" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommonsLab" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommonsLab" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommonsLab" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommonsLab" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wikimedia" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2980,6 +2984,11 @@
     <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\valdi\Desktop\CommonsLab\app\src\main\java\org\wikimedia\commons\wikimedia\VideoRecording" />
+    </key>
   </component>
   <component name="RunManager" selected="Android App.app">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -3302,22 +3311,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275218" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32880098" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.80199254" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275649" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2172973" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2172973" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -3334,7 +3344,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -3350,124 +3359,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="7" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/AudioPlayer/MediaPlayerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10350">
-          <caret line="414" column="34" selection-start-line="414" selection-start-column="34" selection-end-line="414" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/Fragments/AudioRegisterFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2825">
-          <caret line="113" column="5" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/Activities/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#7754#7775#0" expanded="false" />
-            <element signature="method#setupCollapsingImage#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#setupUploadMenu#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#onActivityResult#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#onDestroy#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#setupNavView#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#initViewPagerAndTabs#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#customizeTabFont#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#onBackPressed#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#21195#21210#0" expanded="false" />
-            <element signature="e#21969#22012#0" expanded="false" />
-            <element signature="method#onNavigationItemSelected#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#23350:23761" expanded="false" />
-            <element signature="method#onLogoutSuccessful#0;class#23350:23761" expanded="false" />
-            <element signature="docComment;method#setupPlayerActions#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#24987#25063#0" expanded="false" />
-            <element signature="e#26588#26664#0" expanded="false" />
-            <element signature="e#27338#27443#0" expanded="false" />
-            <element signature="method#onStartTrackingTouch#0;class#28043:28972" expanded="false" />
-            <element signature="method#onStopTrackingTouch#0;class#28043:28972" expanded="false" />
-            <element signature="docComment;field#seekBarReceiver#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#onPause#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#onResume#0;class#MainActivity#0" expanded="false" />
-            <element signature="docComment;field#MediaServiceActionReceiver#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#registerMediaControlsReceiver#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#MediaPlayerPlaying#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#MediaPlayerStopped#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#MediaPlayerPaused#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#updateServiceReferences#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#killMediaPlayerService#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#35212#35252#0" expanded="false" />
-            <element signature="method#startRecordingVideo#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#takePictureIntent#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#37327#37419#0" expanded="false" />
-            <element signature="e#39803#39838#0" expanded="false" />
-            <element signature="e#40436#40455#0" expanded="false" />
-            <element signature="e#40722#40782#0" expanded="false" />
-            <element signature="class#40991:41512" expanded="false" />
-            <element signature="method#onServiceConnected#0;class#40991:41512" expanded="false" />
-            <element signature="method#onServiceDisconnected#0;class#40991:41512" expanded="false" />
-            <element signature="method#removeNotification#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#updateStatusBarColor#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#revertStatusBarColor#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#getStatusBatColor#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#loadContributions#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#43093:43998" expanded="false" />
-            <element signature="method#onContributionsReceived#0;class#43093:43998" expanded="false" />
-            <element signature="e#43349#43379#0" expanded="false" />
-            <element signature="method#onFailure#0;class#43093:43998" expanded="false" />
-            <element signature="method#loadtestContributions#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#44436:46149" expanded="false" />
-            <element signature="method#onContributionsReceived#0;class#44436:46149" expanded="false" />
-            <element signature="method#onFailure#0;class#44436:46149" expanded="false" />
-            <element signature="method#notifyNewContributionsReceived#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#loadPictureOfTheDay#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#46725:47407" expanded="false" />
-            <element signature="method#onFeedReceived#0;class#46725:47407" expanded="false" />
-            <element signature="method#onError#0;class#46725:47407" expanded="false" />
-            <element signature="method#showToastMessage#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#onSaveInstanceState#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#onPermissionsGranted#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#onPermissionsDenied#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#onRequestPermissionsResult#0;class#MainActivity#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/AudioPlayer/OpusPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/AudioPlayer/MediaPlayerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2750">
-          <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/Fragments/AudioRegisterFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2825">
-          <caret line="113" column="5" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/Fragments/AudioFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2575">
@@ -3481,26 +3378,25 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#7754#7775#0" expanded="false" />
+            <element signature="e#7881#7902#0" expanded="false" />
             <element signature="method#setupCollapsingImage#0;class#MainActivity#0" expanded="false" />
             <element signature="method#setupUploadMenu#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#onActivityResult#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onDestroy#0;class#MainActivity#0" expanded="false" />
             <element signature="method#setupNavView#0;class#MainActivity#0" expanded="false" />
             <element signature="method#initViewPagerAndTabs#0;class#MainActivity#0" expanded="false" />
             <element signature="method#customizeTabFont#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#21195#21210#0" expanded="false" />
-            <element signature="e#21969#22012#0" expanded="false" />
+            <element signature="e#21796#21811#0" expanded="false" />
+            <element signature="e#22570#22613#0" expanded="false" />
             <element signature="method#onNavigationItemSelected#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#23350:23761" expanded="false" />
-            <element signature="method#onLogoutSuccessful#0;class#23350:23761" expanded="false" />
+            <element signature="class#23951:24362" expanded="false" />
+            <element signature="method#onLogoutSuccessful#0;class#23951:24362" expanded="false" />
             <element signature="docComment;method#setupPlayerActions#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#24987#25063#0" expanded="false" />
-            <element signature="e#26588#26664#0" expanded="false" />
-            <element signature="e#27338#27443#0" expanded="false" />
-            <element signature="method#onStartTrackingTouch#0;class#28043:28972" expanded="false" />
-            <element signature="method#onStopTrackingTouch#0;class#28043:28972" expanded="false" />
+            <element signature="e#25588#25664#0" expanded="false" />
+            <element signature="e#27189#27265#0" expanded="false" />
+            <element signature="e#27939#28044#0" expanded="false" />
+            <element signature="method#onStartTrackingTouch#0;class#28644:29573" expanded="false" />
+            <element signature="method#onStopTrackingTouch#0;class#28644:29573" expanded="false" />
             <element signature="docComment;field#seekBarReceiver#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onPause#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onResume#0;class#MainActivity#0" expanded="false" />
@@ -3511,39 +3407,42 @@
             <element signature="method#MediaPlayerPaused#0;class#MainActivity#0" expanded="false" />
             <element signature="method#updateServiceReferences#0;class#MainActivity#0" expanded="false" />
             <element signature="method#killMediaPlayerService#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#35212#35252#0" expanded="false" />
+            <element signature="e#35813#35853#0" expanded="false" />
             <element signature="method#startRecordingVideo#0;class#MainActivity#0" expanded="false" />
             <element signature="method#takePictureIntent#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#37327#37419#0" expanded="false" />
-            <element signature="e#39803#39838#0" expanded="false" />
-            <element signature="e#40436#40455#0" expanded="false" />
-            <element signature="e#40722#40782#0" expanded="false" />
-            <element signature="class#40991:41512" expanded="false" />
-            <element signature="method#onServiceConnected#0;class#40991:41512" expanded="false" />
-            <element signature="method#onServiceDisconnected#0;class#40991:41512" expanded="false" />
+            <element signature="e#38604#38696#0" expanded="false" />
+            <element signature="e#41080#41115#0" expanded="false" />
+            <element signature="e#41713#41732#0" expanded="false" />
+            <element signature="e#41999#42059#0" expanded="false" />
+            <element signature="class#42268:42789" expanded="false" />
+            <element signature="method#onServiceConnected#0;class#42268:42789" expanded="false" />
+            <element signature="method#onServiceDisconnected#0;class#42268:42789" expanded="false" />
             <element signature="method#removeNotification#0;class#MainActivity#0" expanded="false" />
             <element signature="method#updateStatusBarColor#0;class#MainActivity#0" expanded="false" />
             <element signature="method#revertStatusBarColor#0;class#MainActivity#0" expanded="false" />
             <element signature="method#getStatusBatColor#0;class#MainActivity#0" expanded="false" />
             <element signature="method#loadContributions#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#43093:43998" expanded="false" />
-            <element signature="method#onContributionsReceived#0;class#43093:43998" expanded="false" />
-            <element signature="e#43349#43379#0" expanded="false" />
-            <element signature="method#onFailure#0;class#43093:43998" expanded="false" />
+            <element signature="class#44370:45275" expanded="false" />
+            <element signature="method#onContributionsReceived#0;class#44370:45275" expanded="false" />
+            <element signature="e#44626#44656#0" expanded="false" />
+            <element signature="method#onFailure#0;class#44370:45275" expanded="false" />
             <element signature="method#loadtestContributions#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#44436:46149" expanded="false" />
-            <element signature="method#onContributionsReceived#0;class#44436:46149" expanded="false" />
-            <element signature="method#onFailure#0;class#44436:46149" expanded="false" />
+            <element signature="class#45713:47426" expanded="false" />
+            <element signature="method#onContributionsReceived#0;class#45713:47426" expanded="false" />
+            <element signature="method#onFailure#0;class#45713:47426" expanded="false" />
             <element signature="method#notifyNewContributionsReceived#0;class#MainActivity#0" expanded="false" />
             <element signature="method#loadPictureOfTheDay#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#46725:47407" expanded="false" />
-            <element signature="method#onFeedReceived#0;class#46725:47407" expanded="false" />
-            <element signature="method#onError#0;class#46725:47407" expanded="false" />
+            <element signature="class#48002:48684" expanded="false" />
+            <element signature="method#onFeedReceived#0;class#48002:48684" expanded="false" />
+            <element signature="method#onError#0;class#48002:48684" expanded="false" />
             <element signature="method#showToastMessage#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onSaveInstanceState#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onPermissionsGranted#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onPermissionsDenied#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onRequestPermissionsResult#0;class#MainActivity#0" expanded="false" />
+            <marker date="1490800762686" expanded="false" signature="12848:12887" ph="&quot;CommonsLab needs the camera to record videos&quot;" />
+            <marker date="1490800762686" expanded="false" signature="12923:12948" ph="&quot;Allow&quot;" />
+            <marker date="1490800762686" expanded="false" signature="12984:13008" ph="&quot;Deny&quot;" />
           </folding>
         </state>
       </provider>
@@ -3552,7 +3451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
@@ -3564,7 +3462,7 @@
         <state relative-caret-position="1350">
           <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3581,7 +3479,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2100">
           <caret line="113" column="5" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3598,26 +3495,25 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#7754#7775#0" expanded="false" />
+            <element signature="e#7881#7902#0" expanded="false" />
             <element signature="method#setupCollapsingImage#0;class#MainActivity#0" expanded="false" />
             <element signature="method#setupUploadMenu#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#onActivityResult#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onDestroy#0;class#MainActivity#0" expanded="false" />
             <element signature="method#setupNavView#0;class#MainActivity#0" expanded="false" />
             <element signature="method#initViewPagerAndTabs#0;class#MainActivity#0" expanded="false" />
             <element signature="method#customizeTabFont#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#21195#21210#0" expanded="false" />
-            <element signature="e#21969#22012#0" expanded="false" />
+            <element signature="e#21796#21811#0" expanded="false" />
+            <element signature="e#22570#22613#0" expanded="false" />
             <element signature="method#onNavigationItemSelected#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#23350:23761" expanded="false" />
-            <element signature="method#onLogoutSuccessful#0;class#23350:23761" expanded="false" />
+            <element signature="class#23951:24362" expanded="false" />
+            <element signature="method#onLogoutSuccessful#0;class#23951:24362" expanded="false" />
             <element signature="docComment;method#setupPlayerActions#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#24987#25063#0" expanded="false" />
-            <element signature="e#26588#26664#0" expanded="false" />
-            <element signature="e#27338#27443#0" expanded="false" />
-            <element signature="method#onStartTrackingTouch#0;class#28043:28972" expanded="false" />
-            <element signature="method#onStopTrackingTouch#0;class#28043:28972" expanded="false" />
+            <element signature="e#25588#25664#0" expanded="false" />
+            <element signature="e#27189#27265#0" expanded="false" />
+            <element signature="e#27939#28044#0" expanded="false" />
+            <element signature="method#onStartTrackingTouch#0;class#28644:29573" expanded="false" />
+            <element signature="method#onStopTrackingTouch#0;class#28644:29573" expanded="false" />
             <element signature="docComment;field#seekBarReceiver#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onPause#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onResume#0;class#MainActivity#0" expanded="false" />
@@ -3628,39 +3524,42 @@
             <element signature="method#MediaPlayerPaused#0;class#MainActivity#0" expanded="false" />
             <element signature="method#updateServiceReferences#0;class#MainActivity#0" expanded="false" />
             <element signature="method#killMediaPlayerService#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#35212#35252#0" expanded="false" />
+            <element signature="e#35813#35853#0" expanded="false" />
             <element signature="method#startRecordingVideo#0;class#MainActivity#0" expanded="false" />
             <element signature="method#takePictureIntent#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#37327#37419#0" expanded="false" />
-            <element signature="e#39803#39838#0" expanded="false" />
-            <element signature="e#40436#40455#0" expanded="false" />
-            <element signature="e#40722#40782#0" expanded="false" />
-            <element signature="class#40991:41512" expanded="false" />
-            <element signature="method#onServiceConnected#0;class#40991:41512" expanded="false" />
-            <element signature="method#onServiceDisconnected#0;class#40991:41512" expanded="false" />
+            <element signature="e#38604#38696#0" expanded="false" />
+            <element signature="e#41080#41115#0" expanded="false" />
+            <element signature="e#41713#41732#0" expanded="false" />
+            <element signature="e#41999#42059#0" expanded="false" />
+            <element signature="class#42268:42789" expanded="false" />
+            <element signature="method#onServiceConnected#0;class#42268:42789" expanded="false" />
+            <element signature="method#onServiceDisconnected#0;class#42268:42789" expanded="false" />
             <element signature="method#removeNotification#0;class#MainActivity#0" expanded="false" />
             <element signature="method#updateStatusBarColor#0;class#MainActivity#0" expanded="false" />
             <element signature="method#revertStatusBarColor#0;class#MainActivity#0" expanded="false" />
             <element signature="method#getStatusBatColor#0;class#MainActivity#0" expanded="false" />
             <element signature="method#loadContributions#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#43093:43998" expanded="false" />
-            <element signature="method#onContributionsReceived#0;class#43093:43998" expanded="false" />
-            <element signature="e#43349#43379#0" expanded="false" />
-            <element signature="method#onFailure#0;class#43093:43998" expanded="false" />
+            <element signature="class#44370:45275" expanded="false" />
+            <element signature="method#onContributionsReceived#0;class#44370:45275" expanded="false" />
+            <element signature="e#44626#44656#0" expanded="false" />
+            <element signature="method#onFailure#0;class#44370:45275" expanded="false" />
             <element signature="method#loadtestContributions#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#44436:46149" expanded="false" />
-            <element signature="method#onContributionsReceived#0;class#44436:46149" expanded="false" />
-            <element signature="method#onFailure#0;class#44436:46149" expanded="false" />
+            <element signature="class#45713:47426" expanded="false" />
+            <element signature="method#onContributionsReceived#0;class#45713:47426" expanded="false" />
+            <element signature="method#onFailure#0;class#45713:47426" expanded="false" />
             <element signature="method#notifyNewContributionsReceived#0;class#MainActivity#0" expanded="false" />
             <element signature="method#loadPictureOfTheDay#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#46725:47407" expanded="false" />
-            <element signature="method#onFeedReceived#0;class#46725:47407" expanded="false" />
-            <element signature="method#onError#0;class#46725:47407" expanded="false" />
+            <element signature="class#48002:48684" expanded="false" />
+            <element signature="method#onFeedReceived#0;class#48002:48684" expanded="false" />
+            <element signature="method#onError#0;class#48002:48684" expanded="false" />
             <element signature="method#showToastMessage#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onSaveInstanceState#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onPermissionsGranted#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onPermissionsDenied#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onRequestPermissionsResult#0;class#MainActivity#0" expanded="false" />
+            <marker date="1490800762686" expanded="false" signature="12848:12887" ph="&quot;CommonsLab needs the camera to record videos&quot;" />
+            <marker date="1490800762686" expanded="false" signature="12923:12948" ph="&quot;Allow&quot;" />
+            <marker date="1490800762686" expanded="false" signature="12984:13008" ph="&quot;Deny&quot;" />
           </folding>
         </state>
       </provider>
@@ -3669,7 +3568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
@@ -3681,7 +3579,7 @@
         <state relative-caret-position="1350">
           <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3698,7 +3596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2100">
           <caret line="113" column="5" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3715,26 +3612,25 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#7754#7775#0" expanded="false" />
+            <element signature="e#7881#7902#0" expanded="false" />
             <element signature="method#setupCollapsingImage#0;class#MainActivity#0" expanded="false" />
             <element signature="method#setupUploadMenu#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#onActivityResult#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onDestroy#0;class#MainActivity#0" expanded="false" />
             <element signature="method#setupNavView#0;class#MainActivity#0" expanded="false" />
             <element signature="method#initViewPagerAndTabs#0;class#MainActivity#0" expanded="false" />
             <element signature="method#customizeTabFont#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#21195#21210#0" expanded="false" />
-            <element signature="e#21969#22012#0" expanded="false" />
+            <element signature="e#21796#21811#0" expanded="false" />
+            <element signature="e#22570#22613#0" expanded="false" />
             <element signature="method#onNavigationItemSelected#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#23350:23761" expanded="false" />
-            <element signature="method#onLogoutSuccessful#0;class#23350:23761" expanded="false" />
+            <element signature="class#23951:24362" expanded="false" />
+            <element signature="method#onLogoutSuccessful#0;class#23951:24362" expanded="false" />
             <element signature="docComment;method#setupPlayerActions#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#24987#25063#0" expanded="false" />
-            <element signature="e#26588#26664#0" expanded="false" />
-            <element signature="e#27338#27443#0" expanded="false" />
-            <element signature="method#onStartTrackingTouch#0;class#28043:28972" expanded="false" />
-            <element signature="method#onStopTrackingTouch#0;class#28043:28972" expanded="false" />
+            <element signature="e#25588#25664#0" expanded="false" />
+            <element signature="e#27189#27265#0" expanded="false" />
+            <element signature="e#27939#28044#0" expanded="false" />
+            <element signature="method#onStartTrackingTouch#0;class#28644:29573" expanded="false" />
+            <element signature="method#onStopTrackingTouch#0;class#28644:29573" expanded="false" />
             <element signature="docComment;field#seekBarReceiver#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onPause#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onResume#0;class#MainActivity#0" expanded="false" />
@@ -3745,39 +3641,42 @@
             <element signature="method#MediaPlayerPaused#0;class#MainActivity#0" expanded="false" />
             <element signature="method#updateServiceReferences#0;class#MainActivity#0" expanded="false" />
             <element signature="method#killMediaPlayerService#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#35212#35252#0" expanded="false" />
+            <element signature="e#35813#35853#0" expanded="false" />
             <element signature="method#startRecordingVideo#0;class#MainActivity#0" expanded="false" />
             <element signature="method#takePictureIntent#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#37327#37419#0" expanded="false" />
-            <element signature="e#39803#39838#0" expanded="false" />
-            <element signature="e#40436#40455#0" expanded="false" />
-            <element signature="e#40722#40782#0" expanded="false" />
-            <element signature="class#40991:41512" expanded="false" />
-            <element signature="method#onServiceConnected#0;class#40991:41512" expanded="false" />
-            <element signature="method#onServiceDisconnected#0;class#40991:41512" expanded="false" />
+            <element signature="e#38604#38696#0" expanded="false" />
+            <element signature="e#41080#41115#0" expanded="false" />
+            <element signature="e#41713#41732#0" expanded="false" />
+            <element signature="e#41999#42059#0" expanded="false" />
+            <element signature="class#42268:42789" expanded="false" />
+            <element signature="method#onServiceConnected#0;class#42268:42789" expanded="false" />
+            <element signature="method#onServiceDisconnected#0;class#42268:42789" expanded="false" />
             <element signature="method#removeNotification#0;class#MainActivity#0" expanded="false" />
             <element signature="method#updateStatusBarColor#0;class#MainActivity#0" expanded="false" />
             <element signature="method#revertStatusBarColor#0;class#MainActivity#0" expanded="false" />
             <element signature="method#getStatusBatColor#0;class#MainActivity#0" expanded="false" />
             <element signature="method#loadContributions#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#43093:43998" expanded="false" />
-            <element signature="method#onContributionsReceived#0;class#43093:43998" expanded="false" />
-            <element signature="e#43349#43379#0" expanded="false" />
-            <element signature="method#onFailure#0;class#43093:43998" expanded="false" />
+            <element signature="class#44370:45275" expanded="false" />
+            <element signature="method#onContributionsReceived#0;class#44370:45275" expanded="false" />
+            <element signature="e#44626#44656#0" expanded="false" />
+            <element signature="method#onFailure#0;class#44370:45275" expanded="false" />
             <element signature="method#loadtestContributions#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#44436:46149" expanded="false" />
-            <element signature="method#onContributionsReceived#0;class#44436:46149" expanded="false" />
-            <element signature="method#onFailure#0;class#44436:46149" expanded="false" />
+            <element signature="class#45713:47426" expanded="false" />
+            <element signature="method#onContributionsReceived#0;class#45713:47426" expanded="false" />
+            <element signature="method#onFailure#0;class#45713:47426" expanded="false" />
             <element signature="method#notifyNewContributionsReceived#0;class#MainActivity#0" expanded="false" />
             <element signature="method#loadPictureOfTheDay#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#46725:47407" expanded="false" />
-            <element signature="method#onFeedReceived#0;class#46725:47407" expanded="false" />
-            <element signature="method#onError#0;class#46725:47407" expanded="false" />
+            <element signature="class#48002:48684" expanded="false" />
+            <element signature="method#onFeedReceived#0;class#48002:48684" expanded="false" />
+            <element signature="method#onError#0;class#48002:48684" expanded="false" />
             <element signature="method#showToastMessage#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onSaveInstanceState#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onPermissionsGranted#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onPermissionsDenied#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onRequestPermissionsResult#0;class#MainActivity#0" expanded="false" />
+            <marker date="1490800762686" expanded="false" signature="12848:12887" ph="&quot;CommonsLab needs the camera to record videos&quot;" />
+            <marker date="1490800762686" expanded="false" signature="12923:12948" ph="&quot;Allow&quot;" />
+            <marker date="1490800762686" expanded="false" signature="12984:13008" ph="&quot;Deny&quot;" />
           </folding>
         </state>
       </provider>
@@ -3787,7 +3686,7 @@
         <state relative-caret-position="2125">
           <caret line="96" column="27" selection-start-line="96" selection-start-column="27" selection-end-line="96" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3804,7 +3703,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3812,7 +3710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3847,14 +3744,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OpenPlayer/src/com/audionowdigital/android/openplayer/Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-95">
@@ -3880,7 +3769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3888,7 +3776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="55" column="41" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
@@ -3909,22 +3796,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/audio_player_progress.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
@@ -3939,57 +3814,143 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/AudioPlayer/MediaPlayerService.java">
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9325">
-          <caret line="414" column="34" selection-start-line="414" selection-start-column="34" selection-end-line="414" selection-end-column="34" />
+        <state relative-caret-position="548">
+          <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_camera.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/AudioPlayer/OpusPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="120" column="23" selection-start-line="120" selection-start-column="19" selection-end-line="120" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-25/android.jar!/android/app/ProgressDialog.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/VideoRecording/AutoFitTextureView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="49" column="7" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/Utils/FmUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/Utils/AudioRecorder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2750">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/record_audio_animation.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_upload_to_commons.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="139" column="24" selection-start-line="139" selection-start-column="24" selection-end-line="139" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/Fragments/UploadToCommonsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="115" column="51" selection-start-line="115" selection-start-column="51" selection-end-line="115" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1490800880606" expanded="true" signature="6647:6835" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_audio_register.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/Fragments/AudioRegisterFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2100">
-          <caret line="113" column="5" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
+        <state relative-caret-position="341">
+          <caret line="70" column="52" selection-start-line="70" selection-start-column="52" selection-end-line="70" selection-end-column="52" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/AudioPlayer/OpusPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/Activities/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="193" column="15" selection-start-line="193" selection-start-column="15" selection-end-line="193" selection-end-column="15" />
+        <state relative-caret-position="325">
+          <caret line="833" column="0" selection-start-line="833" selection-start-column="0" selection-end-line="833" selection-end-column="0" />
           <folding>
-            <element signature="e#7754#7775#0" expanded="false" />
+            <element signature="e#7881#7902#0" expanded="false" />
             <element signature="method#setupCollapsingImage#0;class#MainActivity#0" expanded="false" />
             <element signature="method#setupUploadMenu#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#onActivityResult#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onDestroy#0;class#MainActivity#0" expanded="false" />
             <element signature="method#setupNavView#0;class#MainActivity#0" expanded="false" />
             <element signature="method#initViewPagerAndTabs#0;class#MainActivity#0" expanded="false" />
             <element signature="method#customizeTabFont#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#21195#21210#0" expanded="false" />
-            <element signature="e#21969#22012#0" expanded="false" />
+            <element signature="e#21796#21811#0" expanded="false" />
+            <element signature="e#22570#22613#0" expanded="false" />
             <element signature="method#onNavigationItemSelected#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#23350:23761" expanded="false" />
-            <element signature="method#onLogoutSuccessful#0;class#23350:23761" expanded="false" />
+            <element signature="class#23951:24362" expanded="false" />
+            <element signature="method#onLogoutSuccessful#0;class#23951:24362" expanded="false" />
             <element signature="docComment;method#setupPlayerActions#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#24987#25063#0" expanded="false" />
-            <element signature="e#26588#26664#0" expanded="false" />
-            <element signature="e#27338#27443#0" expanded="false" />
-            <element signature="method#onStartTrackingTouch#0;class#28043:28972" expanded="false" />
-            <element signature="method#onStopTrackingTouch#0;class#28043:28972" expanded="false" />
+            <element signature="e#25588#25664#0" expanded="false" />
+            <element signature="e#27189#27265#0" expanded="false" />
+            <element signature="e#27939#28044#0" expanded="false" />
+            <element signature="method#onStartTrackingTouch#0;class#28644:29573" expanded="false" />
+            <element signature="method#onStopTrackingTouch#0;class#28644:29573" expanded="false" />
             <element signature="docComment;field#seekBarReceiver#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onPause#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onResume#0;class#MainActivity#0" expanded="false" />
@@ -4000,40 +3961,94 @@
             <element signature="method#MediaPlayerPaused#0;class#MainActivity#0" expanded="false" />
             <element signature="method#updateServiceReferences#0;class#MainActivity#0" expanded="false" />
             <element signature="method#killMediaPlayerService#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#35212#35252#0" expanded="false" />
+            <element signature="e#35813#35853#0" expanded="false" />
             <element signature="method#startRecordingVideo#0;class#MainActivity#0" expanded="false" />
             <element signature="method#takePictureIntent#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#37327#37419#0" expanded="false" />
-            <element signature="e#39803#39838#0" expanded="false" />
-            <element signature="e#40436#40455#0" expanded="false" />
-            <element signature="e#40722#40782#0" expanded="false" />
-            <element signature="class#40991:41512" expanded="false" />
-            <element signature="method#onServiceConnected#0;class#40991:41512" expanded="false" />
-            <element signature="method#onServiceDisconnected#0;class#40991:41512" expanded="false" />
+            <element signature="e#38604#38696#0" expanded="false" />
+            <element signature="e#41080#41115#0" expanded="false" />
+            <element signature="e#41713#41732#0" expanded="false" />
+            <element signature="e#41999#42059#0" expanded="false" />
+            <element signature="class#42268:42789" expanded="false" />
+            <element signature="method#onServiceConnected#0;class#42268:42789" expanded="false" />
+            <element signature="method#onServiceDisconnected#0;class#42268:42789" expanded="false" />
             <element signature="method#removeNotification#0;class#MainActivity#0" expanded="false" />
             <element signature="method#updateStatusBarColor#0;class#MainActivity#0" expanded="false" />
             <element signature="method#revertStatusBarColor#0;class#MainActivity#0" expanded="false" />
             <element signature="method#getStatusBatColor#0;class#MainActivity#0" expanded="false" />
             <element signature="method#loadContributions#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#43093:43998" expanded="false" />
-            <element signature="method#onContributionsReceived#0;class#43093:43998" expanded="false" />
-            <element signature="e#43349#43379#0" expanded="false" />
-            <element signature="method#onFailure#0;class#43093:43998" expanded="false" />
+            <element signature="class#44370:45275" expanded="false" />
+            <element signature="method#onContributionsReceived#0;class#44370:45275" expanded="false" />
+            <element signature="e#44626#44656#0" expanded="false" />
+            <element signature="method#onFailure#0;class#44370:45275" expanded="false" />
             <element signature="method#loadtestContributions#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#44436:46149" expanded="false" />
-            <element signature="method#onContributionsReceived#0;class#44436:46149" expanded="false" />
-            <element signature="method#onFailure#0;class#44436:46149" expanded="false" />
+            <element signature="class#45713:47426" expanded="false" />
+            <element signature="method#onContributionsReceived#0;class#45713:47426" expanded="false" />
+            <element signature="method#onFailure#0;class#45713:47426" expanded="false" />
             <element signature="method#notifyNewContributionsReceived#0;class#MainActivity#0" expanded="false" />
             <element signature="method#loadPictureOfTheDay#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#46725:47407" expanded="false" />
-            <element signature="method#onFeedReceived#0;class#46725:47407" expanded="false" />
-            <element signature="method#onError#0;class#46725:47407" expanded="false" />
+            <element signature="class#48002:48684" expanded="false" />
+            <element signature="method#onFeedReceived#0;class#48002:48684" expanded="false" />
+            <element signature="method#onError#0;class#48002:48684" expanded="false" />
             <element signature="method#showToastMessage#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onSaveInstanceState#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onPermissionsGranted#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onPermissionsDenied#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onRequestPermissionsResult#0;class#MainActivity#0" expanded="false" />
+            <marker date="1490800762686" expanded="false" signature="12848:12887" ph="&quot;CommonsLab needs the camera to record videos&quot;" />
+            <marker date="1490800762686" expanded="false" signature="12923:12948" ph="&quot;Allow&quot;" />
+            <marker date="1490800762686" expanded="false" signature="12984:13008" ph="&quot;Deny&quot;" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="68" column="31" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/fragment_camera2_video.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_camera2_video.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-55">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+          <folding>
+            <element signature="e#1647#1663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/VideoRecording/Camera2VideoFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16641">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#28161#28188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/wikimedia/commons/wikimedia/AudioPlayer/MediaPlayerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="423" column="20" selection-start-line="423" selection-start-column="20" selection-end-line="423" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>

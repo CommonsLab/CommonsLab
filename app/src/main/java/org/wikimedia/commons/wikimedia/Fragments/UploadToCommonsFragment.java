@@ -4,11 +4,9 @@ import android.app.ProgressDialog;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import android.content.IntentFilter;
 import android.graphics.Typeface;
 import android.media.MediaPlayer;
 import android.net.Uri;
-import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -29,6 +27,7 @@ import com.bumptech.glide.Glide;
 import org.wikimedia.commons.wikimedia.Activities.ImageDetailsActivity;
 import org.wikimedia.commons.wikimedia.Activities.MainActivity;
 import org.wikimedia.commons.wikimedia.Activities.VideoPlayerActivity;
+import org.wikimedia.commons.wikimedia.AudioPlayer.OpusPlayer;
 import org.wikimedia.commons.wikimedia.R;
 import org.wikimedia.commons.wikimedia.Utils.SharedPreferencesUtils.StorageUtil;
 
@@ -163,9 +162,8 @@ public class UploadToCommonsFragment extends Fragment {
                         } catch (IOException e) {
                             e.printStackTrace();
                         }
-                    } else if (mediaPlayer.isPlaying()) {
-                        mediaPlayer.pause();
-                    } else {
+                    } else if (mediaPlayer != null) {
+                        mediaPlayer.stop();
                         //start playing from the start
                         try {
                             playAudio(contributionPath);
@@ -219,28 +217,8 @@ public class UploadToCommonsFragment extends Fragment {
         mediaPlayer.setDataSource(audioFilePath);
         mediaPlayer.prepare();
         mediaPlayer.start();
-
-
-        //testing decode functions. Can't play recorded audio for Lollipop and older devices
-//        String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
-//         encodedPath =
-//                Environment.getExternalStorageDirectory().getAbsolutePath()
-//                        + "/commonsAudioEncoded_" + timeStamp + ".ogg";
-//
-//
-//        OpusTool oTool = new OpusTool();
-//        oTool.decode(audioFilePath, encodedPath, null);
     }
 
-
-    private void opusSetup() {
-        //register a broadcast receiver
-        mReceiver = new OpusReceiver();
-        IntentFilter filter = new IntentFilter();
-        filter.addAction(OpusEvent.ACTION_OPUS_UI_RECEIVER);
-        getActivity().registerReceiver(mReceiver, filter);
-
-    }
 
     //define a broadcast receiver
     class OpusReceiver extends BroadcastReceiver {
@@ -288,7 +266,6 @@ public class UploadToCommonsFragment extends Fragment {
         super.onDestroy();
         if (mediaPlayer != null) {
             mediaPlayer.stop();
-            mediaPlayer.release();
         }
         ((MainActivity) getActivity()).revertStatusBarColor();
     }
@@ -322,12 +299,10 @@ public class UploadToCommonsFragment extends Fragment {
             else
                 file = new File(contributionPath);
 
-            if (mediaType == Media.VIDEO)
-                if (Build.VERSION.SDK_INT < Build.VERSION_CODES.N) {
-                    file = new File(UriToAbsolutePath.getPath(getActivity(), Uri.parse(contributionPath)));
-                } else {
-                    file = ((MainActivity) getActivity()).getVideoFile();// get file from activity ..
-                }
+
+            Log.d("UPLOADING_FILE path", file.getAbsolutePath());
+            Log.d("UPLOADING_FILE name", file.getName());
+            Log.d("UPLOADING_FILE size", String.valueOf(file.length()));
 
             //show a loading screen
             FrameLayout loadingScreen = (FrameLayout) getActivity().findViewById(R.id.progressBarHolder);

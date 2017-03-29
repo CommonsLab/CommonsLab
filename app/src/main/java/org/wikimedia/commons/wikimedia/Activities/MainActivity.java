@@ -24,6 +24,7 @@ import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v4.content.FileProvider;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.view.ViewPager;
@@ -63,6 +64,7 @@ import org.wikimedia.commons.wikimedia.AudioPlayer.MediaPlayerService;
 import org.wikimedia.commons.wikimedia.Utils.NetworkStatus;
 import org.wikimedia.commons.wikimedia.Utils.SharedPreferencesUtils.StorageUtil;
 import org.wikimedia.commons.wikimedia.Utils.FragmentUtils.TabbedPagerAdapter;
+import org.wikimedia.commons.wikimedia.VideoRecording.Camera2VideoFragment;
 
 import java.io.File;
 import java.text.SimpleDateFormat;
@@ -193,7 +195,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
              *
              */
 
-//            /**
+            /**
              //delete this username assigning
              username = "Thalie_Envolée"; //test user for audio files
              loadtestContributions(username, limit, false);
@@ -202,9 +204,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
              //username = "Operationundies"; //test user for images
              username = "Martin_Falbisoner"; //test user for images
              loadtestContributions(username, limit, true);
-//             */
+             */
 
-//            loadContributions(username, limit);
+            loadContributions(username, limit);
         }
 
         loadPictureOfTheDay();
@@ -267,19 +269,28 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                     }
                     break;
                 case R.id.upload_video_fab:
-                    String[] videoPermissions = {Manifest.permission.CAMERA, Manifest.permission.WRITE_EXTERNAL_STORAGE};
-                    if (EasyPermissions.hasPermissions(MainActivity.this, videoPermissions)) {
-                        // Already have permission
-                        uploadMenu.close(true);
-                        startRecordingVideo();
+//                    String[] videoPermissions = {Manifest.permission.CAMERA, Manifest.permission.WRITE_EXTERNAL_STORAGE};
+//                    if (EasyPermissions.hasPermissions(MainActivity.this, videoPermissions)) {
+//                        // Already have permission
+//                        uploadMenu.close(true);
+//                        startRecordingVideo();
+//                    } else {
+//                        // Do not have permissions, request permissions
+//                        EasyPermissions.requestPermissions(MainActivity.this,
+//                                getString(R.string.image_video_request),
+//                                R.string.allow_permission,
+//                                R.string.deny_permission,
+//                                UPLOAD_VIDEO_PERMISSION,
+//                                videoPermissions);
+//                    }
+
+                    uploadMenu.close(true);
+                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                        getFragmentManager().beginTransaction()
+                                .replace(R.id.drawer_layout, Camera2VideoFragment.newInstance())
+                                .commit();
                     } else {
-                        // Do not have permissions, request permissions
-                        EasyPermissions.requestPermissions(MainActivity.this,
-                                getString(R.string.image_video_request),
-                                R.string.allow_permission,
-                                R.string.deny_permission,
-                                UPLOAD_VIDEO_PERMISSION,
-                                videoPermissions);
+                        showToastMessage("Your device can't record in the supported format");
                     }
                     break;
                 case R.id.upload_audio_fab:
@@ -288,7 +299,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                         // Already have permission
                         uploadMenu.close(true);
                         Fragment audioRegisterFragment = AudioRegisterFragment.newInstance();
-                        android.support.v4.app.FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+                        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
                         transaction.replace(R.id.drawer_layout, audioRegisterFragment, "AudioRegisterFragment");// give your fragment container id in first parameter
                         transaction.addToBackStack(null);  // if written, this transaction will be added to backstack
                         transaction.commit();
@@ -821,6 +832,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         return videoFile;
     }
 
+    public void loadUploadScreen(String videoAbsolutePath) {
+//        File file = new File( mNextVideoAbsolutePath);
+        android.support.v4.app.Fragment uploadToCommonsFragment = UploadToCommonsFragment.newInstance(videoAbsolutePath, false, ContributionType.VIDEO);
+        android.support.v4.app.FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+        transaction.replace(R.id.drawer_layout, uploadToCommonsFragment, "UploadToCommonsFragment");// give your fragment container id in first parameter
+        transaction.addToBackStack(null);  // if written, this transaction will be added to backstack
+        transaction.commit();
+    }
 
     private void takePictureIntent() {
         Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
