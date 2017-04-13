@@ -2,5 +2,9 @@
     {
         "merged": "C:\\Users\\valdi\\Desktop\\CommonsLab\\OpenPlayer\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\icon.png",
         "source": "C:\\Users\\valdi\\Desktop\\CommonsLab\\OpenPlayer\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\valdi\\Desktop\\CommonsLab\\openplayer\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\icon.png",
+        "source": "C:\\Users\\valdi\\Desktop\\CommonsLab\\openplayer\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\icon.png"
     }
 ]
