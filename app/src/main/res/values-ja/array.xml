@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Licenses">
+        <item>CC0 1.0 全世界</item>
+        <item>表示 3.0 非移植 (CC BY 3.0)</item>
+        <item>表示 - 継承 3.0 非移植 (CC BY-SA 3.0)</item>
+    </string-array>
+</resources>
