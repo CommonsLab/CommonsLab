@@ -5,11 +5,15 @@
         <item
             android:id="@+id/nav_pod"
             android:icon="@drawable/camera_nav_icon"
-            android:title="Picture of the day" />
+            android:title="Picture of the day"
+            android:visible="false"
+            />
         <item
             android:id="@+id/nav_mod"
             android:icon="@drawable/video_camera_nav_icon"
-            android:title="Media of the day" />
+            android:title="Media of the day"
+            android:visible="false"
+            />
 
     </group>
 

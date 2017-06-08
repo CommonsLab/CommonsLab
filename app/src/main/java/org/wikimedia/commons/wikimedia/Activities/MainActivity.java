@@ -227,7 +227,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         //Set Picture of the day to collapsing ImageView
         collapsingImageView = (ImageView) findViewById(R.id.collapsing_ImageView);
-        if ((pictureOfTheDayList = storage.retrieveRSS_Feed(MediaType.PICTURE)) != null)
+
+        pictureOfTheDayList = storage.retrieveRSS_Feed(MediaType.PICTURE);
+        if (pictureOfTheDayList != null &&
+                pictureOfTheDayList.size() > 0 &&
+                pictureOfTheDayList.get(0) != null &&
+                pictureOfTheDayList.get(0).getMediaLink() != null)
             Glide.with(this)
                     .load(pictureOfTheDayList.get(0).getMediaLink())
                     .centerCrop()
@@ -1075,11 +1080,15 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                     storage.storeRSS_Feed(arrayList, MediaType.PICTURE);
                     pictureOfTheDayList = arrayList;
                     //Update Collapsing ImageView
-                    Glide.with(MainActivity.this)
-                            .load(pictureOfTheDayList.get(0).getMediaLink())
-                            .centerCrop()
-                            .crossFade()
-                            .into(collapsingImageView);
+                    if (pictureOfTheDayList != null &&
+                            pictureOfTheDayList.size() > 0 &&
+                            pictureOfTheDayList.get(0) != null &&
+                            pictureOfTheDayList.get(0).getMediaLink() != null)
+                        Glide.with(MainActivity.this)
+                                .load(pictureOfTheDayList.get(0).getMediaLink())
+                                .centerCrop()
+                                .crossFade()
+                                .into(collapsingImageView);
                 }
 
                 @Override
