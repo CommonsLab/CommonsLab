@@ -122,9 +122,9 @@
     <orderEntry type="library" exported="" scope="TEST" name="exposed-instrumentation-api-publish-0.5" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="rules-0.5" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="javax.annotation-api-1.2" level="project" />
-    <orderEntry type="library" exported="" name="CommonsAPI-1.1.8" level="project" />
     <orderEntry type="library" exported="" name="opuslib-1.0.2" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="javax.inject-1" level="project" />
+    <orderEntry type="library" exported="" name="CommonsAPI-1.1.9" level="project" />
     <orderEntry type="library" exported="" name="okio-1.11.0" level="project" />
     <orderEntry type="library" exported="" name="okhttp-3.6.0" level="project" />
     <orderEntry type="library" exported="" name="support-compat-25.3.0" level="project" />

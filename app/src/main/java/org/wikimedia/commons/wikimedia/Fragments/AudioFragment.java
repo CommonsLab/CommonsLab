@@ -108,7 +108,8 @@ public class AudioFragment extends Fragment {
                 for (int i = 0; i < storedContributions.size(); i++) {
                     if (storedContributions.get(i).getMediatype().equals("AUDIO"))
                         //Insert the images in the +IMAGES+ list
-                        contributionsList.add(storedContributions.get(i));
+                        if (contributionsList != null)
+                            contributionsList.add(storedContributions.get(i));
                 }
             }
             adapter.notifyDataSetChanged();
