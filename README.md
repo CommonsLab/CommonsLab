@@ -2,6 +2,7 @@
 
 Android Application for Wikimedia Commons 
 
+[Privacy Policy](https://github.com/CommonsLab/CommonsLab/blob/master/Security%20and%20Permissions.md)
 
 ### Screenshots 
 
