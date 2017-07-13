@@ -6,7 +6,7 @@
     android:background="@android:color/black"
     android:foregroundGravity="center"
     android:gravity="center"
-    tools:context="org.wikimedia.commons.wikimedia.Activities.VideoPlayerActivity">
+    tools:context="com.commonslab.commonslab.Activities.VideoPlayerActivity">
 
     <VideoView
         android:foregroundGravity="center_vertical"

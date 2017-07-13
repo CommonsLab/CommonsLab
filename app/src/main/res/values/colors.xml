@@ -7,8 +7,6 @@
     <color name="colorPrimary">#03A9F4</color> <!-- Used on gradient and on tab_layout -->
     <color name="colorPrimaryDark">#03A9F4</color> <!-- Used on gradient and on tab_layout -->
 
-    <color name="login_background">#4D78C9AD</color>
-
 
     <color name="green">#02D143
     </color> <!-- Mostly used on gradients. Maybe ripple effect with this? -->
@@ -22,9 +20,9 @@
     <color name="white">#FFFFFF</color>
     <color name="colorAccent">#03A9F4</color>
 
-    <color name="black_overlay">#00660000</color> <!-- Plain white you idiot -->
+    <!-- Plain white you idiot -->
     <color name="black_opacity">#80000000</color> <!-- Plain white you idiot -->
-    <color name="black">#000000</color> <!-- Plain white you idiot -->
+    <!-- Plain white you idiot -->
 
 
     <color name="record_btn_color">#78C9AD</color>

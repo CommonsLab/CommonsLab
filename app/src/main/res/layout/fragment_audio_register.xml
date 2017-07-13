@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/white"
     android:clickable="true"
-    tools:context="org.wikimedia.commons.wikimedia.Fragments.AudioRegisterFragment">
+    tools:context="com.commonslab.commonslab.Fragments.AudioRegisterFragment">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/record_toolbar"

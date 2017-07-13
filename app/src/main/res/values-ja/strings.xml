@@ -1,8 +1,6 @@
 <resources>
-    <string name="WIKIMEDIA_COMMONS">https://commons.wikimedia.org/w/api.php</string>
 
     <string name="app_name">CommonsLab</string>
-    <string name="commonsLab">CommonsLab</string>
     <string name="commons">Wikimedia Commons</string>
 
     <string name="action_settings">設定</string>
@@ -16,22 +14,10 @@
     <string name="prompt_password">パスワード </string>
     <string name="action_sign_in">ログイン</string>
     <string name="action_sign_in_short">サインイン</string>
-    <string name="error_invalid_email">このメールアドレスは正しくありません</string>
-    <string name="error_invalid_password">このパスワードは短すぎます</string>
-    <string name="error_incorrect_password">このパスワードは間違っています</string>
-    <string name="error_field_required">このフィールドは必須です</string>
-    <string name="permission_rationale">"メールのコンプリートを使用するには、
-        連絡先のアクセス許可が必要です。"
-    </string>
 
-    <string name="title_activity_fullscreen">FullscreenActivity</string>
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
-    <string name="forgot_password">パスワードをお忘れですか?</string>
     <string name="create_an_account">アカウントを作成</string>
     <string name="create_account">アカウントを作成</string>
     <string name="username">ユーザー名</string>
-    <string name="retry_password">もう一度パスワードを入力</string>
     <string name="field_required">このフィールドは必須です</string>
     <string name="record">記録</string>
     <string name="cancel">キャンセル</string>
@@ -47,7 +33,6 @@
     <string name="expandTransition">expandTransition</string>
 
     <!--SharedPreferences storage strings-->
-    <string name="SessionStorage">org.wikimedia.commons.wikimedia.SessionStorage</string>
     <string name="User_Credentials">org.wikimedia.commons.wikimedia.UserCredentials</string>
     <string name="User_Contributions">org.wikimedia.commons.wikimedia.UserContributions</string>
     <string name="Picture_of_the_day">今日の Wikimedia Commons 写真</string>
@@ -55,7 +40,6 @@
     <string name="email_error">メールアドレスが間違っています</string>
     <string name="pod">今日の写真</string>
     <string name="image_capture_request">CommonsLab は、画像のキャプチャにカメラが必要です</string>
-    <string name="image_video_request">CommonsLab は、ビデオの記録にカメラが必要です</string>
     <string name="image_audio_request">CommonsLab は、オーディオの記録にマイクへのアクセスが必要です</string>
     <string name="image_gallery_request">CommonsLab は、画像へのアクセスが必要です</string>
     <string name="deny_permission">拒否</string>
@@ -64,7 +48,6 @@
 
     <!--Video capture-->
     <string name="stop">停止</string>
-    <string name="description_info">情報</string>
     <string name="permission_request">CommonsLab は、カメラとオーディオ記録のアクセス許可が必要です。</string>
     <string name="camera_error">このデバイスは Camera2 API をサポートしていません。</string>
 

@@ -6,7 +6,6 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="nav_header_vertical_spacing">16dp</dimen>
     <dimen name="nav_header_height">160dp</dimen>
-    <dimen name="fab_size">56dp</dimen>
     <dimen name="min_animation_height">15dp</dimen>
     <dimen name="max_animation_height">40dp</dimen>
     <dimen name="animation_ImageView_width">6dp</dimen>

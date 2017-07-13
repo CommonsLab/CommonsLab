@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:animateLayoutChanges="true"
     android:fitsSystemWindows="true"
-    tools:context="org.wikimedia.commons.wikimedia.Activities.LoginActivity">
+    tools:context="com.commonslab.commonslab.Activities.LoginActivity">
 
     <include layout="@layout/background_image_layout" />
 

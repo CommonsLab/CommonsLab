@@ -16,7 +16,7 @@
             android:layout_height="match_parent"
             android:gravity="bottom"
             android:orientation="vertical"
-            tools:context="org.wikimedia.commons.wikimedia.Fragments.UploadToCommonsFragment">
+            tools:context="com.commonslab.commonslab.Fragments.UploadToCommonsFragment">
 
             <ImageView
                 android:id="@+id/uploadImageView"

@@ -5,22 +5,22 @@
         <item
             android:id="@+id/nav_pod"
             android:icon="@drawable/camera_nav_icon"
-            android:title="Picture of the day"
+            android:title="@string/picture_of_the_day"
             />
         <item
             android:id="@+id/nav_mod"
             android:icon="@drawable/video_camera_nav_icon"
-            android:title="Media of the day"
+            android:title="@string/media_of_the_day"
             />
 
     </group>
 
-    <item android:title="CommonsLab">
+    <item android:title="@string/commonslab">
         <menu>
             <item
                 android:id="@+id/nav_logout"
                 android:icon="@drawable/exit_nav_icon"
-                android:title="Logout" />
+                android:title="@string/logout" />
 
         </menu>
     </item>

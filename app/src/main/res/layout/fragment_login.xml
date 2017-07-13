@@ -50,7 +50,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp">
 
-                    <org.wikimedia.commons.wikimedia.Utils.CustomViews.CustomEditText
+                    <com.commonslab.commonslab.Utils.CustomViews.CustomEditText
                         android:id="@+id/login_username"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -73,7 +73,7 @@
                     app:passwordToggleEnabled="true"
                     app:passwordToggleTint="@color/white_opacity">
 
-                    <org.wikimedia.commons.wikimedia.Utils.CustomViews.CustomEditText
+                    <com.commonslab.commonslab.Utils.CustomViews.CustomEditText
                         android:id="@+id/password_login"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
