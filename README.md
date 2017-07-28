@@ -2,7 +2,10 @@
 
 Android Application for Wikimedia Commons 
 
-[Privacy Policy](https://github.com/CommonsLab/CommonsLab/blob/master/Security%20and%20Permissions.md)
+Read the [Privacy Policy](https://github.com/CommonsLab/CommonsLab/blob/master/Security%20and%20Permissions.md)
+
+<a href="https://f-droid.org/packages/org.wikimedia.commons.wikimedia/" target="_blank">
+<img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="100"/></a>
 
 ### Screenshots 
 
