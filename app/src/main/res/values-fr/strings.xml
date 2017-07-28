@@ -1,0 +1,78 @@
+<resources>
+
+    <string name="app_name">CommonsLab</string>
+    <string name="commons">Wikimedia Commons</string>
+
+    <string name="action_settings">Paramètres</string>
+
+    <string name="navigation_drawer_open">Ouvrir la navigation</string>
+    <string name="navigation_drawer_close">Fermer la navigation</string>
+    <string name="title_activity_login">Se connecter</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Mot de passe </string>
+    <string name="action_sign_in">Se connecter</string>
+    <string name="action_sign_in_short">Se connec.</string>
+
+    <string name="create_an_account">Créer un Compte</string>
+    <string name="create_account">Créer Compte</string>
+    <string name="username">Pseudo</string>
+    <string name="field_required">Ce champ est obligatoire</string>
+    <string name="record">Enregistrer</string>
+    <string name="cancel">Annuler</string>
+    <string name="done">OK</string>
+    <string name="title">Titre</string>
+    <string name="description">Description</string>
+    <string name="comment">Commentaire</string>
+    <string name="upload">Télécharger</string>
+    <string name="retype_password">Retaper le MDP</string>
+    <string name="captcha">Captcha</string>
+
+    <!--Transition name-->
+    <string name="expandTransition">expandTransition</string>
+
+    <!--SharedPreferences storage strings-->
+    <string name="User_Credentials">org.wikimedia.commons.wikimedia.UserCredentials</string>
+    <string name="User_Contributions">org.wikimedia.commons.wikimedia.UserContributions</string>
+    <string name="Picture_of_the_day">Image du jour Wikimedia Commons</string>
+    <string name="Media_of_the_day">Média du jour Wikimedia Commons</string>
+    <string name="email_error">L\'Email est incorrect</string>
+    <string name="pod">Image du jour</string>
+    <string name="image_capture_request">CommonsLab a besoin de la caméra pour prendre des images</string>
+    <string name="image_audio_request">CommonsLab doit accéder au micro pour enregistrer de l\'audio</string>
+    <string name="image_gallery_request">CommonsLab doit accéder à vos images</string>
+    <string name="deny_permission">Refuser</string>
+    <string name="allow_permission">Autoriser</string>
+
+
+    <!--Video capture-->
+    <string name="stop">Stop</string>
+    <string name="permission_request">CommonsLab a besoin d\'une autorisation pour la caméra et l\'enregistrement audio.</string>
+    <string name="camera_error">Ce périphérique ne prend pas en charge l\'API Camera2.</string>
+    <string name="picture_of_the_day">Image du jour</string>
+    <string name="media_of_the_day">Média du jour</string>
+    <string name="commonslab">CommonsLab</string>
+    <string name="logout">Déconnexion</string>
+    <string name="cant_record_in_suported_format">Votre appareil ne peut pas enregistrer dans le format supporté</string>
+    <string name="failed_capturing_image">Échec de la capture d\'image</string>
+    <string name="something_went_wrong">Quelque chose s\'est mal passé</string>
+    <string name="no_camera_on_device">Pas d\'appareil photo sur l\'appareil</string>
+    <string name="allow_app_to_capture_images">Pour partager dans Commons \nautorisez cette app à prendre des images</string>
+    <string name="allow_app_to_record_videos">Pour partager dans Commons \nautorisez cette app à prendre des vidéos</string>
+    <string name="allow_app_to_record_audio">Pour partager dans Commons \nautorisez cette app à enregistrer de l\'audio</string>
+    <string name="allow_app_to_access_gallery">Pour partager dans Commons \nautorisez cette app à accéder à votre galerie</string>
+    <string name="an_error_accourred">Une erreur s\'est produite</string>
+    <string name="the_decoder_failed_to_playback_the_file">Le décodeur n\'a pas réussi à lire le fichier</string>
+    <string name="device_has_no_microphone">Le périphérique n\'a pas de micro</string>
+    <string name="welcome">Bon Retour :)</string>
+    <string name="incorrect_username_password">Nom d\'utilisateur ou mot de passe incorrect</string>
+    <string name="cant_play_this_media">Impossible de lire ce média. Format non supporté</string>
+    <string name="passwords_do_not_match">Le mot de passe ne correspond pas</string>
+    <string name="password_to_short">Mot de passe trop court \nMinimum 6 caractères nécessaires</string>
+    <string name="account_created_successfully">Compte créé avec succès \nVeuillez confirmer votre compte</string>
+    <string name="user_session_deleted">Session utilisateur supprimée \nReconnectez-vous pour télécharger des médias</string>
+    <string name="set_the_media_title">Définir le titre du média</string>
+    <string name="thank_tou_for_sharing">Merci de votre partage dans Commons</string>
+
+</resources>
