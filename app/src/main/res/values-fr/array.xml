@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Licenses">
+        <item>CC0</item>
+        <item>CC Attribution 3.0</item>
+        <item>CC Attribution-Partage à l\'identique 3.0</item>
+    </string-array>
+</resources>
