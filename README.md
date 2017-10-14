@@ -7,6 +7,10 @@ Read the [Privacy Policy](https://github.com/CommonsLab/CommonsLab/blob/master/S
 <a href="https://f-droid.org/packages/com.commonslab.commonslab/" target="_blank">
 <img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="100"/></a>
 
+<a href="https://play.google.com/store/apps/details?id=com.commons.lab.app" target="_blank">
+<img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" alt="Get it on F-Droid" height="100"/></a>
+
+
 ### Screenshots 
 
 |![Screenshot](https://github.com/valdio/CommonsLab/blob/master/Screenshots/Screenshot_1489774698.png)|![Screenshot](https://github.com/valdio/CommonsLab/blob/master/Screenshots/Screenshot_1489776167.png)|![Screenshot](https://github.com/valdio/CommonsLab/blob/master/Screenshots/Screenshot_1489776217.png)|![Screenshot](https://github.com/valdio/CommonsLab/blob/master/Screenshots/Screenshot_1489775909.png)|![Screenshot](https://github.com/valdio/CommonsLab/blob/master/Screenshots/Screenshot_1490629495.png)|
