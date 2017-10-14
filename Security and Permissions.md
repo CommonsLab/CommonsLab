@@ -13,4 +13,4 @@ We require this permission to record audios then upload them to Wikimedia Common
 
 [READ_PHONE_STATE Permission](https://developer.android.com/reference/android/Manifest.permission.html#READ_PHONE_STATE)
 
-We require this permission to listen to system events, E.g. incoming calls, messages, push notifications in order to stop playing audio or video, in case the user is playing media files and an system events happen. 
+We require this permission to listen to system events, E.g. incoming calls, messages, push notifications in order to stop playing audio or video, in case the user is playing media files and a system events happen. 
